@@ -1,0 +1,1507 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Actions Pack 1.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/actions-pack\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-29T21:12:27+00:00\n"
+"PO-Revision-Date: 2021-11-06 18:56+0000\n"
+"Language: fr_FR\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: actions-pack\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Loco-Version: 2.4.4; wp-5.8.1\n"
+
+#. Plugin Name of the plugin
+#: plugin.php:107
+#: plugin.php:123
+#: plugin.php:141
+msgid "Actions Pack"
+msgstr "Les Actions De Pack"
+
+#. Plugin URI of the plugin
+msgid "https://actions-pack.com"
+msgstr "https://actions-pack.com"
+
+#. Description of the plugin
+msgid "Supercharge Elementor's default form widget with premium features & actions"
+msgstr "Supercharger le widget de formulaire par défaut d’Elementor avec des fonctionnalités et des actions premium"
+
+#. Author of the plugin
+msgid "Wpfolk"
+msgstr "Wpfolk"
+
+#. Author URI of the plugin
+msgid "https://wpfolk.com"
+msgstr "https://wpfolk.com"
+
+#: actions/google-sheet.php:24
+#: actions/google-sheet.php:249
+msgid "Google Sheet"
+msgstr "Fiche Google"
+
+#: actions/google-sheet.php:100
+msgid "Could not resolve API host. Try again!!!"
+msgstr "Impossible de résoudre l’hôte API. Réessayez!!!"
+
+#: actions/google-sheet.php:108
+msgid "Something Went Wrong. Try Again!!!"
+msgstr "Quelque chose s’est mal passé. Réessayez!!!"
+
+#: actions/google-sheet.php:154
+#: actions/zoho-crm.php:334
+msgid "Powered by Actions Pack (%s)"
+msgstr "Alimenté par action Pack (%s)"
+
+#: actions/google-sheet.php:199
+msgid "<hr id=\"ap_google_sheet\">Google Sheet"
+msgstr "<hr id=\"ap_google_sheet\">Fiche Google"
+
+#: actions/google-sheet.php:201
+msgid "Enable Google Sheets API <a href=\"%s\" target=\"_blank\">here</a>, enter a project name, select application type as web server, paste <span class=\"ap-google-sheet-redirect-uri\"><strong>%s</strong></span> as redirect URI and get the credentials."
+msgstr "Activez l’API Google Sheets <a href=\"%s\" target=\"_blank\">ici</a>, entrez un nom de projet, sélectionnez le type d’application comme serveur Web, collez <span class=\"ap-google-sheet-redirect-uri\"><strong>%s</strong></span> comme URI de redirection et obtenez les informations d’identification."
+
+#: actions/google-sheet.php:205
+#: actions/google-sheet.php:310
+#: actions/zoho-crm.php:352
+#: actions/zoho-crm.php:442
+msgid "Client ID"
+msgstr "ID de Client"
+
+#: actions/google-sheet.php:211
+#: actions/google-sheet.php:323
+#: actions/zoho-crm.php:358
+#: actions/zoho-crm.php:455
+msgid "Client Secret"
+msgstr "Secrets Du Client"
+
+#: actions/google-sheet.php:234
+#: actions/google-sheet.php:370
+#: actions/zoho-crm.php:366
+#: actions/zoho-crm.php:519
+msgid "Validate Credentials"
+msgstr "Valider Les Informations D'Identification"
+
+#: actions/google-sheet.php:259
+#: actions/zoho-crm.php:391
+msgid "API Credentials <span class=\"ap-required\">*</span>"
+msgstr "Informations d’identification de l’API <span class=\"ap-required\">*</span>"
+
+#: actions/google-sheet.php:261
+#: actions/google-sheet.php:385
+#: actions/login.php:366
+#: actions/login.php:684
+#: actions/login.php:708
+#: actions/login.php:746
+#: actions/login.php:956
+#: actions/login.php:999
+#: actions/login.php:1060
+#: actions/profile.php:467
+#: actions/profile.php:624
+#: actions/profile.php:759
+#: actions/register.php:856
+#: actions/register.php:1129
+#: actions/register.php:1165
+#: actions/register.php:1254
+#: actions/register.php:1429
+#: actions/register.php:1626
+#: actions/register.php:1695
+#: actions/register.php:1790
+#: actions/reset-pass.php:227
+#: actions/reset-pass.php:598
+#: actions/reset-pass.php:672
+#: actions/reset-pass.php:775
+#: actions/zoho-crm.php:393
+#: actions/zoho-crm.php:534
+#: classes/common.php:309
+#: classes/common.php:389
+#: classes/common.php:438
+msgid "Default"
+msgstr "Par défaut"
+
+#: actions/google-sheet.php:262
+#: actions/google-sheet.php:386
+#: actions/login.php:685
+#: actions/login.php:709
+#: actions/login.php:747
+#: actions/login.php:957
+#: actions/login.php:1000
+#: actions/login.php:1061
+#: actions/profile.php:468
+#: actions/profile.php:625
+#: actions/profile.php:760
+#: actions/register.php:1130
+#: actions/register.php:1166
+#: actions/register.php:1255
+#: actions/register.php:1430
+#: actions/register.php:1627
+#: actions/register.php:1696
+#: actions/register.php:1791
+#: actions/reset-pass.php:599
+#: actions/reset-pass.php:673
+#: actions/reset-pass.php:776
+#: actions/zoho-crm.php:394
+#: actions/zoho-crm.php:535
+#: classes/common.php:310
+#: classes/common.php:439
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: actions/google-sheet.php:271
+#: actions/login.php:864
+#: actions/reset-pass.php:692
+#: actions/sms.php:84
+#: actions/zoho-crm.php:403
+msgid "API Source"
+msgstr "API Source"
+
+#: actions/google-sheet.php:287
+#: actions/login.php:879
+#: actions/register.php:1546
+#: actions/reset-pass.php:706
+#: actions/sms.php:100
+#: actions/zoho-crm.php:419
+msgid "To use default credentials, make sure you have already set the credentials"
+msgstr "Pour utiliser les informations d'identification par défaut, assurez-vous que vous avez déjà défini les informations d'identification"
+
+#: actions/google-sheet.php:287
+#: actions/login.php:879
+#: actions/login.php:891
+#: actions/register.php:1546
+#: actions/register.php:1558
+#: actions/reset-pass.php:706
+#: actions/reset-pass.php:717
+#: actions/sms.php:59
+#: actions/sms.php:100
+#: actions/sms.php:112
+#: actions/zoho-crm.php:419
+msgid "here"
+msgstr "ici"
+
+#: actions/google-sheet.php:287
+#: actions/login.php:879
+#: actions/register.php:1546
+#: actions/reset-pass.php:706
+#: actions/sms.php:100
+#: actions/zoho-crm.php:419
+msgid "You can use this field to set a custom credential for current form only"
+msgstr "Vous pouvez utiliser ce champ pour définir une informations d'identification personnalisées pour forme actuelle, seulement"
+
+#: actions/google-sheet.php:299
+msgid "Enable Google Sheets API <a href=\"%s\" target=\"_blank\" style=\"color:cornflowerblue\">here</a>, enter a project name, select application type as web server, paste <span class=\"ap-google-sheet-redirect-uri\" style=\"font-size:10px\"><strong>%s</strong></span> as redirect URI and get the credentials."
+msgstr "Activez l’API Google Sheets <a href=\"%s\" target=\"_blank\" style=\"color:cornflowerblue\">ici</a>, entrez un nom de projet, sélectionnez le type d’application comme serveur Web, collez <span class=\"ap-google-sheet-redirect-uri\" style=\"font-size:10px\"><strong>%s</strong></span> comme URI de redirection et obtenez les informations d’identification."
+
+#: actions/google-sheet.php:383
+msgid "Spreadsheet Details <span class=\"ap-required\">*</span>"
+msgstr "Détails de la feuille de calcul <span class=\"ap-required\">*</span>"
+
+#: actions/google-sheet.php:395
+msgid "Spreadsheet URL"
+msgstr "URL de feuille de calcul"
+
+#: actions/google-sheet.php:412
+msgid "Sheet Name"
+msgstr "Nom de la feuille"
+
+#: actions/google-sheet.php:426
+#: actions/profile.php:477
+#: actions/register.php:1138
+#: actions/register.php:1174
+#: actions/register.php:1201
+#: actions/register.php:1263
+#: actions/register.php:1438
+#: actions/register.php:1656
+#: actions/zoho-crm.php:589
+msgid "Form Field"
+msgstr "Champ De Formulaire"
+
+#: actions/google-sheet.php:436
+#: actions/zoho-crm.php:599
+msgid "Meta Data"
+msgstr "Métadonnées"
+
+#: actions/google-sheet.php:439
+#: actions/zoho-crm.php:602
+msgid "Date"
+msgstr "Date"
+
+#: actions/google-sheet.php:440
+#: actions/zoho-crm.php:603
+msgid "Time"
+msgstr "Heure"
+
+#: actions/google-sheet.php:441
+#: actions/zoho-crm.php:604
+msgid "Page URL"
+msgstr "Page URL"
+
+#: actions/google-sheet.php:442
+#: actions/zoho-crm.php:605
+msgid "User Agent"
+msgstr "Agent utilisateur"
+
+#: actions/google-sheet.php:443
+#: actions/zoho-crm.php:606
+msgid "Remote IP"
+msgstr "IP à distance"
+
+#: actions/google-sheet.php:444
+#: actions/zoho-crm.php:607
+msgid "Credit"
+msgstr "Crédit"
+
+#: actions/google-sheet.php:456
+msgid "Sheet Column"
+msgstr "Colonnes De La Feuille De"
+
+#: actions/google-sheet.php:468
+msgid "Column ID"
+msgstr "ID de colonne"
+
+#: actions/google-sheet.php:481
+msgid "Field Mapping"
+msgstr "Domaine De La Cartographie"
+
+#: actions/login.php:96
+msgid "You can't login to our site now. Your profile is being verified. You will be notified once we complete the verification."
+msgstr "Vous ne pouvez pas vous connecter à notre site maintenant. Votre profil est en cours de vérification. Vous serez averti une fois que nous aurons terminé la vérification."
+
+#: actions/login.php:103
+msgid "You have not verified your %s yet. Click %sHere%s to enter the secret code we already sent you."
+msgstr "Vous n'avez pas vérifié votre %s encore. Cliquez sur %sHere%s pour entrer le code secret nous avons déjà envoyé."
+
+#: actions/login.php:111
+msgid "You have not verified your %s yet. Click on the verification link we sent to your %s. %s %s"
+msgstr "Vous n'avez pas vérifié votre %s encore. Cliquez sur le lien de confirmation que nous vous avons envoyé votre %s. %s %s"
+
+#: actions/login.php:115
+msgid "Enter your "
+msgstr "Entrez votre "
+
+#: actions/login.php:136
+msgid "<strong>Error</strong>: The phone field is empty."
+msgstr "<strong>Error</strong> : Le champ de téléphone est vide."
+
+#: actions/login.php:140
+msgid "<strong>Error</strong>: The password field is empty."
+msgstr "<strong>Error</strong> : le champ mot de passe est vide."
+
+#: actions/login.php:156
+msgid "Unknown phone number. Check again or try your username."
+msgstr "Inconnu numéro de téléphone. Vérifiez de nouveau, ou tentez votre nom d'utilisateur."
+
+#. translators: %s: Phone Number.
+#: actions/login.php:173
+msgid "<strong>Error</strong>: The password you entered for the phone number %s is incorrect."
+msgstr "<strong>Error</strong> : le mot de passe que vous avez entré pour le numéro de téléphone %s est incorrect."
+
+#: actions/login.php:206
+msgid "invalid nonce"
+msgstr "nonce non valide"
+
+#: actions/login.php:215
+#: actions/reset-pass.php:64
+msgid "Too many failed attempts. Try after <span class=\"apCountDown\">%s</span> minutes!"
+msgstr "Trop de tentatives infructueuses. Essayez après <span class=\"apCountDown\">les %s</span> minutes!"
+
+#: actions/login.php:239
+#: actions/reset-pass.php:137
+msgid "Verified"
+msgstr "Vérifié"
+
+#: actions/login.php:244
+#: actions/reset-pass.php:149
+msgid "Invalid Code"
+msgstr "Code non valide"
+
+#: actions/login.php:265
+#: actions/register.php:334
+#: actions/reset-pass.php:100
+msgid "Email Sent "
+msgstr "E-Mail Envoyé "
+
+#: actions/login.php:288
+#: actions/register.php:373
+#: actions/reset-pass.php:123
+msgid "SMS Sent "
+msgstr "SMS Envoyé "
+
+#: actions/login.php:320
+#: actions/register.php:810
+#: actions/reset-pass.php:192
+msgid "OTP"
+msgstr "BDP"
+
+#: actions/login.php:354
+#: actions/register.php:844
+#: actions/reset-pass.php:215
+msgid "Container"
+msgstr "Conteneur"
+
+#: actions/login.php:362
+#: actions/register.php:852
+#: actions/reset-pass.php:223
+msgid "Position"
+msgstr "Position"
+
+#: actions/login.php:367
+#: actions/register.php:857
+#: actions/reset-pass.php:228
+msgid "Absolute"
+msgstr "Absolue"
+
+#: actions/login.php:368
+#: actions/register.php:858
+#: actions/reset-pass.php:229
+msgid "Fixed"
+msgstr "Fixe"
+
+#: actions/login.php:377
+#: actions/register.php:867
+#: actions/reset-pass.php:238
+msgid "Margin"
+msgstr "La marge"
+
+#: actions/login.php:388
+#: actions/register.php:878
+#: actions/reset-pass.php:249
+msgid "Padding"
+msgstr "Rembourrage"
+
+#: actions/login.php:401
+#: actions/register.php:891
+#: actions/reset-pass.php:262
+msgid "Container Background"
+msgstr "Conteneur À Fond"
+
+#: actions/login.php:410
+#: actions/register.php:900
+#: actions/reset-pass.php:271
+msgid "Box"
+msgstr "Boîte"
+
+#: actions/login.php:418
+#: actions/register.php:908
+#: actions/reset-pass.php:279
+msgid "Box Width"
+msgstr "Largeur De La Zone De"
+
+#: actions/login.php:444
+#: actions/register.php:934
+#: actions/reset-pass.php:305
+msgid "Box Height"
+msgstr "Hauteur De La Zone De"
+
+#: actions/login.php:471
+#: actions/register.php:961
+#: actions/reset-pass.php:332
+msgid "Box Background"
+msgstr "Fond De Boîte"
+
+#: actions/login.php:480
+#: actions/register.php:970
+#: actions/reset-pass.php:341
+#: classes/common.php:405
+msgid "Border"
+msgstr "La frontière"
+
+#: actions/login.php:488
+#: actions/register.php:978
+#: actions/reset-pass.php:349
+#: classes/common.php:413
+msgid "Border Radius"
+msgstr "Rayon Des Frontières"
+
+#: actions/login.php:500
+#: actions/register.php:990
+#: actions/reset-pass.php:361
+#: classes/common.php:426
+msgid "Box Shadow"
+msgstr "Zone D'Ombre"
+
+#: actions/login.php:508
+#: actions/register.php:998
+#: actions/reset-pass.php:369
+msgid "Text"
+msgstr "Texte"
+
+#: actions/login.php:518
+#: actions/register.php:1008
+#: actions/reset-pass.php:379
+msgid "Typography"
+msgstr "La typographie"
+
+#: actions/login.php:527
+#: actions/register.php:1017
+#: actions/reset-pass.php:388
+msgid "Color"
+msgstr "Couleur"
+
+#: actions/login.php:542
+#: actions/register.php:1032
+#: actions/reset-pass.php:403
+msgid "Individual Input"
+msgstr "Entrée Individuelle"
+
+#: actions/login.php:551
+#: actions/register.php:1041
+#: actions/reset-pass.php:412
+msgid "Size"
+msgstr "Taille"
+
+#: actions/login.php:562
+#: actions/register.php:1052
+#: actions/reset-pass.php:422
+msgid "Focus Color"
+msgstr "Accent De Couleur"
+
+#: actions/login.php:629
+#: actions/login.php:655
+msgid "Login"
+msgstr "Connexion"
+
+#: actions/login.php:665
+msgid "Login Via <span class=\"ap-required\">*</span>"
+msgstr "Connectez-vous via <span class=\"ap-required\">*</span>"
+
+#: actions/login.php:682
+msgid "User ID <span class=\"ap-required\">*</span>"
+msgstr "ID utilisateur <span class=\"ap-required\">*</span>"
+
+#: actions/login.php:693
+#: actions/login.php:732
+#: actions/login.php:965
+msgid "Field"
+msgstr "Champ"
+
+#: actions/login.php:697
+msgid "You must create a Username, Email or Phone Form field above and map that field here."
+msgstr "Vous devez créer un champ Nom d’utilisateur, courrier électronique ou formulaire de téléphone ci-dessus et cartographier ce champ ici."
+
+#: actions/login.php:706
+#: actions/register.php:1163
+#: actions/reset-pass.php:536
+msgid "Password <span class=\"ap-required\">*</span>"
+msgstr "Mot de passe <span class=\"ap-required\">*</span>"
+
+#: actions/login.php:744
+msgid "OTP <span class=\"ap-required\">*</span>"
+msgstr "OTP <span class=\"ap-required\">*</span>"
+
+#: actions/login.php:758
+#: actions/register.php:1312
+#: actions/register.php:1487
+#: actions/reset-pass.php:562
+msgid "OTP Length"
+msgstr "OTP Longueur"
+
+#: actions/login.php:771
+#, fuzzy
+msgid "OTP Send Via"
+msgstr "Otp Envoyer Par"
+
+#: actions/login.php:787
+#: actions/reset-pass.php:596
+msgid "Email Settings"
+msgstr "Paramètres de messagerie"
+
+#: actions/login.php:796
+#: actions/profile.php:649
+#: actions/profile.php:706
+#: actions/register.php:1355
+#: actions/register.php:1718
+#: actions/reset-pass.php:617
+msgid "From Name"
+msgstr "De Nom"
+
+#: actions/login.php:807
+#: actions/profile.php:659
+#: actions/profile.php:716
+#: actions/register.php:1368
+#: actions/register.php:1731
+msgid "From Email"
+msgstr "À Partir D'Un Courriel"
+
+#: actions/login.php:818
+#: actions/profile.php:669
+#: actions/profile.php:736
+#: actions/register.php:1381
+#: actions/register.php:1744
+#: actions/reset-pass.php:637
+msgid "Subject"
+msgstr "Sujet"
+
+#: actions/login.php:820
+msgid "Your One Time Passcode"
+msgstr "Votre code d’accès one time"
+
+#: actions/login.php:821
+#: actions/profile.php:739
+#: actions/register.php:1383
+#: actions/register.php:1384
+msgid "Thank you for registering"
+msgstr "Merci de vous inscrire"
+
+#: actions/login.php:829
+#: actions/register.php:1394
+#: actions/register.php:1757
+#: actions/reset-pass.php:645
+msgid "Send As"
+msgstr "Envoyer En Tant Que"
+
+#: actions/login.php:834
+#: actions/register.php:1399
+#: actions/register.php:1762
+#: actions/reset-pass.php:650
+msgid "HTML"
+msgstr "HTML"
+
+#: actions/login.php:835
+#: actions/register.php:1400
+#: actions/register.php:1763
+#: actions/reset-pass.php:651
+msgid "Plain"
+msgstr "Plaine"
+
+#: actions/login.php:843
+#: actions/login.php:939
+#: actions/profile.php:679
+#: actions/profile.php:746
+#: actions/register.php:1410
+#: actions/register.php:1606
+#: actions/register.php:1773
+#: actions/reset-pass.php:658
+#: actions/reset-pass.php:761
+#: actions/sms.php:170
+msgid "Message"
+msgstr "Message"
+
+#: actions/login.php:845
+msgid "Your one time password is [ap-login-otp]."
+msgstr "Votre mot de passe unique est [ap-login-otp]."
+
+#: actions/login.php:855
+#: actions/reset-pass.php:670
+msgid "SMS Settings"
+msgstr "Paramètres SMS"
+
+#: actions/login.php:891
+#: actions/register.php:1558
+#: actions/reset-pass.php:717
+#: actions/sms.php:59
+#: actions/sms.php:112
+msgid "Click"
+msgstr "Cliquez sur"
+
+#: actions/login.php:891
+#: actions/register.php:1558
+#: actions/reset-pass.php:717
+#: actions/sms.php:112
+msgid "to get your Twilio Account SID, Auth Token and Phone number"
+msgstr "pour obtenir votre Compte Twilio SID, Auth Jeton et le numéro de Téléphone"
+
+#: actions/login.php:902
+#: actions/register.php:1569
+#: actions/reset-pass.php:727
+#: actions/sms.php:44
+#: actions/sms.php:123
+msgid "Account SID"
+msgstr "SID du compte"
+
+#: actions/login.php:914
+#: actions/register.php:1581
+#: actions/reset-pass.php:738
+#: actions/sms.php:50
+#: actions/sms.php:135
+msgid "Auth Token"
+msgstr "Auth Jeton"
+
+#: actions/login.php:926
+#: actions/register.php:1593
+#: actions/reset-pass.php:749
+#: actions/sms.php:56
+#: actions/sms.php:147
+msgid "From Number"
+msgstr "À Partir Du Numéro"
+
+#: actions/login.php:941
+#: actions/login.php:942
+msgid "Your one time password is %s."
+msgstr "Votre mot de passe unique est %s."
+
+#: actions/login.php:954
+msgid "Remember Me"
+msgstr "Se Souvenir De Moi"
+
+#: actions/login.php:970
+msgid "You must create a form field of type <strong>Acceptance</strong> which will be used as Remember me checkbox"
+msgstr "Vous devez créer un champ de formulaire de type <strong>Acceptance</strong> qui sera utilisé comme Case à cocher Remember me"
+
+#: actions/login.php:976
+msgid "Duration (In Days)"
+msgstr "Durée (En jours)"
+
+#: actions/login.php:997
+#: actions/register.php:1813
+msgid "Redirection"
+msgstr "La Redirection"
+
+#: actions/login.php:1008
+msgid "Redirect After Login (role wise)"
+msgstr "Redirection After Login (rôle sage)"
+
+#: actions/login.php:1019
+#: actions/register.php:1829
+msgid "https://your-link.com"
+msgstr "https://your-link.com"
+
+#: actions/login.php:1030
+#: actions/login.php:1086
+msgid "Leave empty to reload the current page."
+msgstr "Laissez vide pour recharger la page en cours."
+
+#: actions/login.php:1037
+msgid "Additional Options"
+msgstr "Options supplémentaires"
+
+#: actions/login.php:1045
+msgid "URL to redirect default Login page"
+msgstr "URL pour rediriger la page de connexion par défaut"
+
+#: actions/login.php:1048
+#: actions/login.php:1083
+msgid "https://yoursite.com/login"
+msgstr "https://yoursite.com/login"
+
+#: actions/login.php:1050
+msgid "<span style=\"color: orangered\">WARNING</span> : It redirects the default <strong>wp-login.php</strong> page to the the page url you entered above. So before changing it, check if your new Login form works perfectly."
+msgstr "<span style=\"color: orangered\">AVERTISSEMENT</span> : Il redirige la page <strong>wp-login.php</strong> par défaut vers l’URL de la page que vous avez saisie ci-dessus. Donc, avant de le changer, vérifiez si votre nouveau formulaire de connexion fonctionne parfaitement."
+
+#: actions/login.php:1058
+#: actions/profile.php:757
+#: actions/register.php:1788
+#: actions/reset-pass.php:773
+msgid "Additional Settings"
+msgstr "Paramètres supplémentaires"
+
+#: actions/login.php:1069
+msgid "Display Logout Link"
+msgstr "Afficher le lien de déconnexion"
+
+#: actions/login.php:1072
+#: classes/common.php:103
+msgid "Hide"
+msgstr "Cacher"
+
+#: actions/login.php:1073
+#: classes/common.php:102
+msgid "Show"
+msgstr "Montrer"
+
+#: actions/login.php:1074
+msgid "A logout link will be visible in place of the Login form."
+msgstr "Un lien logout sera visible à la place du formulaire de connexion."
+
+#: actions/login.php:1080
+msgid "URL to redirect users after Logout"
+msgstr "URL pour rediriger les utilisateurs après la déconnexion"
+
+#: actions/login.php:1095
+msgid "Logout Template"
+msgstr "Modèle de déconnexion"
+
+#: actions/login.php:1102
+msgid "Available shortcodes are [ap-username], [ap-firstname], [ap-lastname], [ap-name], [ap-email], [ap-logout-url]"
+msgstr "Les shortcodes disponibles sont [ap-username], [ap-firstname], [ap-lastname], [ap-name], [ap-email], [ap-logout-url]"
+
+#: actions/login.php:1126
+#: actions/register.php:1888
+#: actions/reset-pass.php:832
+msgid "You are already logged-in"
+msgstr "Vous êtes déjà connecté"
+
+#: actions/login.php:1157
+msgid "Enter your login id"
+msgstr "Entrez votre id de connexion"
+
+#: actions/login.php:1167
+#: actions/login.php:1254
+msgid "Enter your password"
+msgstr "Entrez votre mot de passe"
+
+#: actions/login.php:1242
+msgid "User doesn't exit. Try again!"
+msgstr "L’utilisateur ne sort pas. Réessayez!"
+
+#: actions/profile.php:156
+msgid "Username already exists. Try another."
+msgstr "Le nom d’utilisateur existe déjà. Essayez un autre."
+
+#: actions/profile.php:169
+msgid "Email already exists. Try another."
+msgstr "Le courrier électronique existe déjà. Essayez un autre."
+
+#: actions/profile.php:177
+msgid "Phone already exists. Try another."
+msgstr "Le téléphone existe déjà. Essayez un autre."
+
+#: actions/profile.php:406
+#: actions/profile.php:799
+msgid "You don't have permission to edit the profile."
+msgstr "Vous n’avez pas l’autorisation de modifier le profil."
+
+#: actions/profile.php:447
+#: actions/profile.php:455
+msgid "Edit Profile"
+msgstr "Modifier le profil"
+
+#: actions/profile.php:465
+msgid "Profile Fields"
+msgstr "Champs de profil"
+
+#: actions/profile.php:486
+#: actions/register.php:1636
+msgid "User Field"
+msgstr "Champ Utilisateur"
+
+#: actions/profile.php:495
+#: actions/register.php:1645
+#: classes/Dynamic_Tags/Image_Meta.php:31
+#: classes/Dynamic_Tags/Url_Meta.php:31
+msgid "Meta Key"
+msgstr "Touche Meta"
+
+#: actions/profile.php:506
+msgid "Editable"
+msgstr "Modifiable"
+
+#: actions/profile.php:508
+#: actions/profile.php:534
+#: actions/profile.php:565
+#: actions/register.php:1852
+#: actions/reset-pass.php:788
+#: actions/zoho-crm.php:558
+#: classes/common.php:452
+msgid "No"
+msgstr "Pas de"
+
+#: actions/profile.php:509
+#: actions/profile.php:535
+#: actions/profile.php:566
+#: actions/register.php:1851
+#: actions/reset-pass.php:787
+#: classes/common.php:451
+msgid "Yes"
+msgstr "Oui"
+
+#: actions/profile.php:532
+msgid "Require User Approval"
+msgstr "Exiger l’approbation de l’utilisateur"
+
+#: actions/profile.php:563
+msgid "Require Admin Approval"
+msgstr "Exiger l’approbation de l’administrateur"
+
+#: actions/profile.php:594
+msgid "<strong>Map the form fields with your user fields</strong>"
+msgstr "<strong>Mappper les champs de formulaire avec vos champs utilisateur</strong>"
+
+#: actions/profile.php:622
+msgid "Approval Settings"
+msgstr "Paramètres d’approbation"
+
+#: actions/profile.php:633
+msgid "Email Settings (User)"
+msgstr "Paramètres de messagerie (Utilisateur)"
+
+#: actions/profile.php:642
+msgid "Email to be sent to the Users asking for their approval by clicking on a confirmation link when they change any value on their profile."
+msgstr "E-mail à envoyer aux utilisateurs demandant leur approbation en cliquant sur un lien de confirmation lorsqu’ils changent de valeur sur leur profil."
+
+#: actions/profile.php:671
+msgid "Approve changes on your profile"
+msgstr "Approuver les modifications apportées à votre profil"
+
+#: actions/profile.php:672
+msgid "Approve changes your profile"
+msgstr "Approuver les modifications apportées à votre profil"
+
+#: actions/profile.php:681
+#: actions/profile.php:682
+msgid "<table bgcolor=\"#e2e2e4\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td style=\"padding:20px 30px 20px 30px;\"><table bgcolor=\"#ffffff\" align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"padding:20px 30px 20px 30px;\"><tr><td style=\"padding:10px 0 10px 0;\">Hello [username],</td></tr><tr><td style=\"padding:10px 0 10px 0;\">You recently requested to change following information on your profile.</td></tr><tr><td style=\"padding:10px 0 10px 0;\">[pending-data]</td></tr><tr><td style=\"padding:10px 0 10px 0;\">To change your profile information you need to confirm it by clicking on the button below.</td></tr><tr><td align=\"left\" style=\"padding:20px 0 10px 0;\"><a href=\"[approval-link]\" target=\"_blank\" style=\"text-decoration:none;\"><span style=\"background-color:#0094c5;padding:12px;border:none;border-radius:6px;text-decoration:none;text-transform:none;color:#ffffff;font-weight:600;letter-spacing:2px;\">CONFIRM</span></a></td></tr></table></td></tr></table>"
+msgstr "<table bgcolor=\"#e2e2e4\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td style=\"padding:20px 30px 20px 30px;\"><table bgcolor=\"#ffffff\" align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"padding:20px 30px 20px 30px;\"><tr><td style=\"padding:10px 0 10px 0;\">Bonjour [nom d’utilisateur],</td></tr><tr><td style=\"padding:10px 0 10px 0;\">Vous avez récemment demandé de modifier les informations suivantes sur votre profil.</td></tr><tr><td style=\"padding:10px 0 10px 0;\">[données en attente]</td></tr><tr><td style=\"padding:10px 0 10px 0;\">Pour modifier les informations de votre profil, vous devez les confirmer en cliquant sur le bouton ci-dessous.</td></tr><tr><td align=\"left\" style=\"padding:20px 0 10px 0;\"><a href=\"[approval-link]\" target=\"_blank\" style=\"text-decoration:none;\"><span style=\"background-color:#0094c5;padding:12px;border:none;border-radius:6px;text-decoration:none;text-transform:none;color:#ffffff;font-weight:600;letter-spacing:2px;\">Confirmer</span></a></td></tr></table></td></tr></table>"
+
+#: actions/profile.php:690
+msgid "Email Settings (Admin)"
+msgstr "Paramètres de messagerie (Admin)"
+
+#: actions/profile.php:699
+msgid "Email to be sent to an Admin asking for approval by clicking on a confirmation link when users change any value on their profile."
+msgstr "E-mail à envoyer à un administrateur demandant l’approbation en cliquant sur un lien de confirmation lorsque les utilisateurs changent de valeur sur leur profil."
+
+#: actions/profile.php:726
+msgid "To Email"
+msgstr "À envoyer un courriel"
+
+#: actions/profile.php:738
+msgid "Approve changes on user profile"
+msgstr "Approuver les modifications sur le profil utilisateur"
+
+#: actions/profile.php:748
+#: actions/profile.php:749
+msgid "<table bgcolor=\"#e2e2e4\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td style=\"padding:20px 30px 20px 30px;\"><table bgcolor=\"#ffffff\" align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"padding:20px 30px 20px 30px;\"><tr><td style=\"padding:10px 0 10px 0;\">Hello admin,</td></tr><tr><td style=\"padding:10px 0 10px 0;\"><a href=\"[profile-link]\">[username]</a> requested to change following information on the profile.</td></tr><tr><td style=\"padding:10px 0 10px 0;\">[pending-data]</td></tr><tr><td style=\"padding:10px 0 10px 0;\">To change the information on profile you need to confirm it by clicking on the button below.</td></tr><tr><td align=\"left\" style=\"padding:20px 0 10px 0;\"><a href=\"[approval-link]\" target=\"_blank\" style=\"text-decoration:none;\"><span style=\"background-color:#0094c5;padding:12px;border:none;border-radius:6px;text-decoration:none;text-transform:none;color:#ffffff;font-weight:600;letter-spacing:2px;\">CONFIRM</span></a></td></tr></table></td></tr></table>"
+msgstr "<table bgcolor=\"#e2e2e4\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"100%\"><tr><td style=\"padding:20px 30px 20px 30px;\"><table bgcolor=\"#ffffff\" align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"600\" style=\"padding:20px 30px 20px 30px;\"><tr><td style=\"padding:10px 0 10px 0;\">Bonjour admin,</td></tr><tr><td style=\"padding:10px 0 10px 0;\"><a href=\"[profile-link]\">[nom d’utilisateur]</a> a demandé de modifier les informations suivantes sur le profil.</td></tr><tr><td style=\"padding:10px 0 10px 0;\">[données en attente]</td></tr><tr><td style=\"padding:10px 0 10px 0;\">Pour modifier les informations sur le profil, vous devez le confirmer en cliquant sur le bouton ci-dessous.</td></tr><tr><td align=\"left\" style=\"padding:20px 0 10px 0;\"><a href=\"[approval-link]\" target=\"_blank\" style=\"text-decoration:none;\"><span style=\"background-color:#0094c5;padding:12px;border:none;border-radius:6px;text-decoration:none;text-transform:none;color:#ffffff;font-weight:600;letter-spacing:2px;\">Confirmer</span></a></td></tr></table></td></tr></table>"
+
+#: actions/profile.php:768
+msgid "Change Default profile URL"
+msgstr "Modifier l’URL du profil par défaut"
+
+#: actions/profile.php:770
+msgid "Enter the URL of your newly created profile page. This will redirect the default edit profile url to the new one and adds an <strong>Edit User</strong> link on your users table."
+msgstr "Entrez l’URL de votre page de profil nouvellement créée. Cela redirigera l’URL de profil de modification par défaut vers la nouvelle et ajoutera un lien <strong>Modifier l’utilisateur</strong> dans votre tableau des utilisateurs."
+
+#: actions/profile.php:903
+msgid "An email has been sent you with the instructions to confirm changes in your "
+msgstr "Un e-mail vous a été envoyé avec les instructions pour confirmer les changements dans votre "
+
+#: actions/profile.php:903
+msgid ". Please check your inbox.</br>"
+msgstr ". Veuillez vérifier votre boîte de réception.</br>"
+
+#: actions/profile.php:910
+msgid "<strong>Note: </strong>Changes in your "
+msgstr "<strong>Note:</strong> Changements dans votre "
+
+#: actions/profile.php:910
+msgid " needs to be approved by our Team. Once approved it will be automatically updated."
+msgstr " doit être approuvé par notre équipe. Une fois approuvé, il sera automatiquement mis à jour."
+
+#: actions/profile.php:934
+msgid "An error occurred with your password field. Current Password can not be empty."
+msgstr "Une erreur s’est produite avec votre champ de mot de passe. Le mot de passe actuel ne peut pas être vide."
+
+#: actions/profile.php:937
+msgid "An error occurred with your password field. Your current password is incorrect."
+msgstr "Une erreur s’est produite avec votre champ de mot de passe. Votre mot de passe actuel est incorrect."
+
+#: actions/profile.php:942
+#: actions/profile.php:954
+msgid "An error occurred with your password field. You must enter a password."
+msgstr "Une erreur s’est produite avec votre champ de mot de passe. Vous devez entrer un mot de passe."
+
+#: actions/profile.php:949
+msgid "New password and Repeat password fields do not match. Try it again."
+msgstr "Les champs Nouveau mot de passe et Répéter le mot de passe ne correspondent pas. Réessayez."
+
+#: actions/register.php:158
+msgid "Invalid Email Address"
+msgstr "Adresse Email Non Valide"
+
+#: actions/register.php:166
+msgid "Sorry, that %s is already used!"
+msgstr "Désolé, que %s est déjà utilisé!"
+
+#: actions/register.php:170
+msgid "Invalid Phone Number"
+msgstr "Numéro De Téléphone Non Valide"
+
+#: actions/register.php:175
+#: actions/register.php:340
+#: actions/register.php:376
+msgid "Limit Exceeded"
+msgstr "Limite Dépassée"
+
+#: actions/register.php:181
+#: actions/register.php:225
+msgid "Updated"
+msgstr "Mise à jour"
+
+#: actions/register.php:237
+#: actions/register.php:303
+msgid "Something went wrong. Please try again!"
+msgstr "Quelque chose a mal tourné. Veuillez réessayer!"
+
+#: actions/register.php:336
+msgid "Email Notification not configured properly"
+msgstr "Notification par e-mail non configurée correctement"
+
+#: actions/register.php:413
+msgid " Verified"
+msgstr " Vérifié"
+
+#: actions/register.php:415
+msgid "Invalid Code. Try again."
+msgstr "Code Non Valide. Essayez de nouveau."
+
+#: actions/register.php:570
+msgid "Mark Manually verified"
+msgstr "Marquer Vérifié manuellement"
+
+#: actions/register.php:574
+msgid "Mark Email Verified"
+msgstr "Marquer l’e-mail vérifié"
+
+#: actions/register.php:575
+msgid "Mark Email Not Verified"
+msgstr "Marquer l’e-mail non vérifié"
+
+#: actions/register.php:576
+msgid "Send Verification Email"
+msgstr "Envoyer un e-mail de vérification"
+
+#: actions/register.php:580
+msgid "Mark Phone Verified"
+msgstr "Marquer le téléphone vérifié"
+
+#: actions/register.php:581
+msgid "Mark Phone Not Verified"
+msgstr "Marquer le téléphone non vérifié"
+
+#: actions/register.php:582
+msgid "Send Verification SMS"
+msgstr "Envoyer un SMS de vérification"
+
+#: actions/register.php:704
+msgid "%s user verified."
+msgid_plural "%s users verified."
+msgstr[0] "%s utilisateur vérifié."
+msgstr[1] "%s utilisateurs vérifiés."
+
+#: actions/register.php:713
+msgid "%s Email marked as Verified."
+msgid_plural "%s Emails marked as Verified."
+msgstr[0] "%s E-mail marqué comme Vérifié."
+msgstr[1] "%s E-mails marqués comme Vérifiés."
+
+#: actions/register.php:722
+msgid "%s Email marked as Not Verified."
+msgid_plural "%s Emails marked as Not Verified."
+msgstr[0] "%s E-mail marqué comme Non vérifié."
+msgstr[1] "%s E-mails marqués comme non vérifiés."
+
+#: actions/register.php:734
+msgid "Verification Email has been sent to %s user."
+msgid_plural "Verification Email has been sent to %s users"
+msgstr[0] "L’e-mail de vérification a été envoyé à l’utilisateur %s."
+msgstr[1] "L’e-mail de vérification a été envoyé aux utilisateurs %s"
+
+#: actions/register.php:745
+msgid "%s Phone marked as Verified."
+msgid_plural "%s Phone marked as Verified."
+msgstr[0] "%s Téléphone marqué comme Vérifié."
+msgstr[1] "%s Téléphone marqué comme Vérifié."
+
+#: actions/register.php:754
+msgid "%s Phone marked as Not Verified."
+msgid_plural "%s Phone marked as Not Verified."
+msgstr[0] "%s Téléphone marqué comme Non vérifié."
+msgstr[1] "%s Téléphone marqué comme Non vérifié."
+
+#: actions/register.php:766
+msgid "Verification SMS has been sent to %s user."
+msgid_plural "Verification SMS has been sent to %s users"
+msgstr[0] "Un SMS de vérification a été envoyé à l’utilisateur %s."
+msgstr[1] "Un SMS de vérification a été envoyé aux utilisateurs %s"
+
+#: actions/register.php:1094
+#: actions/register.php:1102
+msgid "Register"
+msgstr "Registre"
+
+#: actions/register.php:1112
+msgid "User Role"
+msgstr "Rôle De L'Utilisateur"
+
+#: actions/register.php:1127
+msgid "Username <span class=\"ap-required\">*</span>"
+msgstr "Nom d’utilisateur <span class=\"ap-required\">*</span>"
+
+#: actions/register.php:1147
+#: actions/register.php:1214
+msgid "Auto Generate"
+msgstr "Générer Automatiquement"
+
+#: actions/register.php:1149
+#: actions/register.php:1188
+#: actions/register.php:1216
+#: actions/register.php:1274
+#: actions/register.php:1344
+#: actions/register.php:1449
+#: actions/register.php:1518
+#: actions/register.php:1706
+#: actions/register.php:1801
+#: actions/register.php:1815
+#: actions/register.php:1866
+#: classes/common.php:126
+#: classes/common.php:151
+msgid "Enable"
+msgstr "Activer"
+
+#: actions/register.php:1150
+#: actions/register.php:1189
+#: actions/register.php:1217
+#: actions/register.php:1275
+#: actions/register.php:1345
+#: actions/register.php:1450
+#: actions/register.php:1519
+#: actions/register.php:1707
+#: actions/register.php:1802
+#: actions/register.php:1816
+#: actions/register.php:1867
+#: classes/common.php:127
+#: classes/common.php:152
+msgid "Disable"
+msgstr "Désactiver"
+
+#: actions/register.php:1186
+msgid "Confirm Password"
+msgstr "Confirmer Le Mot De Passe"
+
+#: actions/register.php:1220
+msgid "It automatically generate a random password. Use shortcode [ap-autogen-password] to send it over email or message."
+msgstr "Il générer automatiquement un mot de passe aléatoire. Utilisation shortcode [ap-autogen-mot de passe] pour envoyer par e-mail ou un message."
+
+#: actions/register.php:1226
+msgid "Length"
+msgstr "Longueur"
+
+#: actions/register.php:1252
+msgid "Email"
+msgstr "E-mail"
+
+#: actions/register.php:1272
+#: actions/register.php:1447
+msgid "Verification"
+msgstr "Vérification"
+
+#: actions/register.php:1285
+#: actions/register.php:1460
+msgid "Verification Via"
+msgstr "Vérification Via"
+
+#: actions/register.php:1302
+msgid "You must enable the %s option below and paste the shortcode %s in the message box to send a unique link or otp to verify user's Email ID."
+msgstr "Vous devez activer le %s option ci-dessous et collez le shortcode %s dans la boîte de message pour envoyer un lien unique ou otp pour vérifier l'utilisateur ID e-Mail."
+
+#: actions/register.php:1327
+#: actions/register.php:1502
+msgid "Redirection URL"
+msgstr "URL de Redirection"
+
+#: actions/register.php:1336
+msgid "Where users should be redirected after successful verification of Email ID. Leave empty for current page."
+msgstr "Lorsque les utilisateurs doivent être redirigé après vérification de l'adresse e-Mail. Laisser vide pour la page en cours."
+
+#: actions/register.php:1342
+#: actions/register.php:1516
+msgid "Notification"
+msgstr "Notification"
+
+#: actions/register.php:1412
+msgid "Thank you for registering to our site."
+msgstr "Merci de vous inscrire sur notre site."
+
+#: actions/register.php:1413
+#: actions/register.php:1610
+msgid "To send form fields, copy the shortcode that appears inside advanced section of each field and paste it above."
+msgstr "Envoyer le formulaire les champs, copiez le shortcode qui apparaît à l'intérieur de section avancé de chaque champ et de le coller ci-dessus."
+
+#: actions/register.php:1427
+msgid "Phone"
+msgstr "Téléphone"
+
+#: actions/register.php:1477
+msgid "You must enable the %s option below and paste the shortcode %s in the message box to send a unique link or otp to verify user's Phone Number."
+msgstr "Vous devez activer le %s option ci-dessous et collez le shortcode %s dans la boîte de message pour envoyer un lien unique ou otp pour vérifier de l'utilisateur Numéro de Téléphone."
+
+#: actions/register.php:1510
+msgid "Where users should be redirected after successful verification of Phone Number. Leave empty for current page."
+msgstr "Lorsque les utilisateurs doivent être redirigé après vérification de votre Numéro de Téléphone. Laisser vide pour la page en cours."
+
+#: actions/register.php:1529
+msgid "SMS API"
+msgstr "API SMS"
+
+#: actions/register.php:1608
+#: actions/register.php:1609
+msgid "Thank you for registering. Please verify your Phone number using this %s link/otp before you login to our site."
+msgstr "Merci de vous inscrire. Veuillez vérifier votre numéro de Téléphone à l'aide de ce %s link/otp avant de vous connecter à notre site."
+
+#: actions/register.php:1624
+msgid "Additional Fields"
+msgstr "Des Champs Supplémentaires"
+
+#: actions/register.php:1665
+#: actions/zoho-crm.php:628
+msgid "Fields Mapping"
+msgstr "Mappage de champs"
+
+#: actions/register.php:1693
+#: actions/register.php:1704
+msgid "Manual Verification"
+msgstr "Vérification manuelle"
+
+#: actions/register.php:1712
+msgid "If you enable this option, users can't login to your site until you manually verify them <a href=\""
+msgstr "Si vous activez cette option, les utilisateurs ne peuvent pas se connecter à votre site tant que vous ne les avez pas vérifiés manuellement. <a href=\""
+
+#: actions/register.php:1746
+#: actions/register.php:1747
+msgid "Your Account has been successfully verified"
+msgstr "Votre compte a été vérifié avec succès"
+
+#: actions/register.php:1775
+#: actions/register.php:1776
+msgid "We completed verifying your Account. Now you will be able to login to our site."
+msgstr "Nous avons terminé la vérification de votre compte. Maintenant, vous pourrez vous connecter à notre site."
+
+#: actions/register.php:1799
+msgid "Auto-Login"
+msgstr "Auto-Login"
+
+#: actions/register.php:1807
+msgid "It allows users to login automatically as soon as they complete the registration process. Redirection option below should be enabled to auto refresh the page after login."
+msgstr "Il permet aux utilisateurs de se connecter automatiquement dès qu'ils auront terminé le processus d'inscription. La Redirection de l'option doit être activée pour l'actualisation automatique de la page après la connexion."
+
+#: actions/register.php:1821
+msgid "The page where should the users be redirected after filling up the registration form."
+msgstr "Page où les utilisateurs doivent-ils être redirigés après avoir rempli le formulaire d’inscription."
+
+#: actions/register.php:1827
+msgid "Redirect To"
+msgstr "Rediriger Vers"
+
+#: actions/register.php:1840
+msgid "Leave empty for current page redirection."
+msgstr "Laissez vide pour le courant de redirection de page."
+
+#: actions/register.php:1849
+#: actions/reset-pass.php:785
+msgid "Hide Form"
+msgstr "Masquer Le Formulaire"
+
+#: actions/register.php:1857
+msgid "Hide this Form for logged-in users. The option does not work for Editor mode."
+msgstr "Cacher ce Formulaire pour les utilisateurs enregistrés. L'option ne fonctionne pas pour le mode de l'Éditeur."
+
+#: actions/register.php:1864
+msgid "Stop Next Actions"
+msgstr "Arrêter les actions suivantes"
+
+#: actions/register.php:1872
+msgid "If you enable this option, other Actions won't be executed on failure of user registration."
+msgstr "Si vous activez cette option, d’autres actions ne seront pas exécutées en cas d’échec de l’enregistrement de l’utilisateur."
+
+#: actions/register.php:1923
+msgid "Username field can not be empty."
+msgstr "Le champ nom d’utilisateur ne peut pas être vide."
+
+#: actions/register.php:1936
+#: actions/register.php:1954
+msgid "Password field can not be empty."
+msgstr "Le champ mot de passe ne peut pas être vide."
+
+#: actions/register.php:1948
+msgid "Both Password fields should be matched"
+msgstr "Les deux champs de Mot de passe doivent être appariés"
+
+#: actions/register.php:1964
+msgid "Email field is not configured properly!"
+msgstr "Champ e-mail n'est pas configuré correctement!"
+
+#: actions/register.php:1969
+msgid "Email field is required!"
+msgstr "Champ Email est obligatoire!"
+
+#: actions/register.php:1983
+msgid "Phone field is not configured properly!"
+msgstr "Champ téléphone n'est pas configuré correctement!"
+
+#: actions/register.php:1988
+msgid "Phone number is required!"
+msgstr "Numéro de téléphone est requis!"
+
+#: actions/register.php:1994
+msgid "Sorry, that phone number is already used!"
+msgstr "Désolé, ce numéro de téléphone est déjà utilisé!"
+
+#: actions/reset-pass.php:52
+msgid "User does not exist."
+msgstr "L’utilisateur n’existe pas."
+
+#: actions/reset-pass.php:56
+msgid "Invalid nonce"
+msgstr "Nonce non valide"
+
+#: actions/reset-pass.php:500
+#: actions/reset-pass.php:517
+msgid "Reset Password"
+msgstr "Réinitialiser Le Mot De Passe"
+
+#: actions/reset-pass.php:527
+msgid "Login ID <span class=\"ap-required\">*</span>"
+msgstr "ID de connexion <span class=\"ap-required\">*</span>"
+
+#: actions/reset-pass.php:539
+msgid "<span style=\"color: #ef0a1d\">Note</span>: The password field will be automatically hidden on frontend and only be visible when users click on the reset password link."
+msgstr "<span style=\"color: #ef0a1d\">Remarque</span>: Le champ mot de passe sera automatiquement masqué sur frontend et ne sera visible que lorsque les utilisateurs cliquent sur le lien de mot de passe de réinitialisation."
+
+#: actions/reset-pass.php:546
+#, fuzzy
+msgid "Reset Through"
+msgstr "Réinitialiser à travers <span class=\"ap-required\">*</span>"
+
+#: actions/reset-pass.php:578
+msgid "Link/OTP Send Via"
+msgstr "Lien/OTP Envoyer via"
+
+#: actions/reset-pass.php:627
+msgid "From"
+msgstr "À partir de"
+
+#: actions/reset-pass.php:660
+#: actions/reset-pass.php:661
+#: actions/reset-pass.php:763
+#: actions/reset-pass.php:764
+msgid "Hi, Use the following link/otp [ap-reset-pass] to reset your password"
+msgstr "Salut, utilisez le lien suivant/otp [ap-reset-pass] pour réinitialiser votre mot de passe"
+
+#: actions/reset-pass.php:792
+msgid "Hide this Form for logged-in users. The option does not work in Editor mode."
+msgstr "Masquez ce formulaire pour les utilisateurs connectés. L’option ne fonctionne pas en mode Éditeur."
+
+#: actions/reset-pass.php:852
+#, fuzzy
+msgid "Blank password is not allowed."
+msgstr "Mot de passe vide n'est pas autorisé"
+
+#: actions/reset-pass.php:873
+msgid "Invalid or Expired link"
+msgstr "Pas valide ou a Expiré lien"
+
+#: actions/reset-pass.php:907
+msgid "Please check your %s for the instructions to reset your password."
+msgstr "Veuillez vérifier vos %s pour les instructions pour réinitialiser votre mot de passe."
+
+#: actions/reset-pass.php:928
+msgid "User doesn't exist. Try again!"
+msgstr "L’utilisateur n’existe pas. Réessayez!"
+
+#: actions/sms.php:59
+msgid "to get your Twilio Account SID, Auth Token and Phone Number."
+msgstr "pour obtenir votre Compte Twilio SID, Auth Jeton et Numéro de Téléphone."
+
+#: actions/sms.php:160
+msgid "To Number"
+msgstr "Pour Nombre"
+
+#: actions/sms.php:174
+msgid "You may enter any shortcode here. If you want to send form field individually, copy the shortcode that appears inside each field and paste it above."
+msgstr "Vous pouvez entrer n'importe quelle shortcode ici. Si vous souhaitez envoyer champ de formulaire individuellement, copiez le shortcode qui apparaît à l'intérieur de chaque domaine et de le coller ci-dessus."
+
+#: actions/sms.php:223
+msgid "Something went wrong. Try again later."
+msgstr "Quelque chose s'est mal passé. Essayez de nouveau plus tard."
+
+#: actions/zoho-crm.php:26
+#: actions/zoho-crm.php:381
+msgid "Zoho CRM"
+msgstr "Zoho CRM"
+
+#: actions/zoho-crm.php:282
+msgid "Mandatory Field <strong>"
+msgstr "Champ obligatoire<strong>"
+
+#: actions/zoho-crm.php:282
+msgid "</strong> is Missing"
+msgstr "</strong> est porté disparu"
+
+#: actions/zoho-crm.php:285
+msgid "Invalid Data was Entered for Field: <strong>"
+msgstr "Les données non valides ont été saisies pour Field:<strong>"
+
+#: actions/zoho-crm.php:288
+msgid "already exists."
+msgstr "existe déjà."
+
+#: actions/zoho-crm.php:346
+msgid "<hr id=\"ap_zoho_crm\">Zoho CRM"
+msgstr "<hr id=\"ap_zoho_crm\">Zoho CRM"
+
+#: actions/zoho-crm.php:348
+msgid "Enable Zoho CRM API <a href=\"%s\" target=\"_blank\">here</a>, add a client, choose <strong>Server-based Applications</strong>, give a name, enter your home page url, paste <span class=\"ap_zoho_crm_redirect_uri\"><strong>%s</strong></span> as redirect URI and get the credentials."
+msgstr "Activez l’API Zoho CRM <a href=\"%s\" target=\"_blank\">ici</a>, ajoutez un client, choisissez <strong>Applications basées sur le serveur,</strong>donnez un nom, entrez votre URL de page <span class=\"ap_zoho_crm_redirect_uri\"><strong>d’accueil, collez %s</strong></span> comme URI de redirection et obtenez les informations d’identification."
+
+#: actions/zoho-crm.php:431
+msgid "Enable Zoho CRM API <a  style=\"color: #0b76ef\" href=\"%s\" target=\"_blank\">here</a>, add a client, choose <strong>Server-based Applications</strong>, give a name, enter your home page url, paste <span class=\"ap_zoho_crm_redirect_uri\"><strong>%s</strong></span> as redirect URI and get the credentials."
+msgstr "Activez l’API Zoho CRM <a style=\"color: #0b76ef\" href=\"%s\" target=\"_blank\">ici</a>, ajoutez un client, choisissez <strong>Applications basées sur le serveur,</strong>donnez un nom, entrez votre URL de page <span class=\"ap_zoho_crm_redirect_uri\"><strong>d’accueil, collez %s</strong></span> comme URI de redirection et obtenez les informations d’identification."
+
+#: actions/zoho-crm.php:532
+msgid "Module Settings <span class=\"ap-required\">*</span>"
+msgstr "Paramètres du module <span class=\"ap-required\">*</span>"
+
+#: actions/zoho-crm.php:544
+msgid "Zoho Module"
+msgstr "Zoho Module"
+
+#: actions/zoho-crm.php:556
+msgid "Update Duplicate"
+msgstr "Mettre à jour dupliqué"
+
+#: actions/zoho-crm.php:559
+msgid "yes"
+msgstr "Oui"
+
+#: actions/zoho-crm.php:562
+msgid "When a duplicate entry is found no error will be thrown. The old record will be updated with new information."
+msgstr "Lorsqu’une entrée en double est trouvée, aucune erreur n’est lancée. L’ancien enregistrement sera mis à jour avec de nouvelles informations."
+
+#: actions/zoho-crm.php:569
+msgid "Trigger Actions"
+msgstr "Actions de déclenchement"
+
+#: actions/zoho-crm.php:573
+msgid "Approval"
+msgstr "Approbation"
+
+#: actions/zoho-crm.php:574
+msgid "Workflow"
+msgstr "Workflow"
+
+#: actions/zoho-crm.php:575
+msgid "Blueprint"
+msgstr "Plan"
+
+#: actions/zoho-crm.php:578
+msgid "Automated actions like workflow, approval and blueprint can be triggered for all the records inserted or updated."
+msgstr "Des actions automatisées telles que le flux de travail, l’approbation et le plan directeur peuvent être déclenchées pour tous les enregistrements insérés ou mis à jour."
+
+#: actions/zoho-crm.php:619
+msgid "Module Field"
+msgstr "Champ module"
+
+#: classes/common.php:56
+msgid "Pattern"
+msgstr "Modèle"
+
+#: classes/common.php:75
+msgid "Pattern Message"
+msgstr "Modèle De Message"
+
+#: classes/common.php:80
+msgid "Please match the requested format"
+msgstr "Faites correspondre le format demandé"
+
+#: classes/common.php:97
+msgid "Preview Toggle"
+msgstr "Aperçu Basculer"
+
+#: classes/common.php:121
+#: classes/common.php:307
+msgid "File Preview"
+msgstr "Aperçu des fichiers"
+
+#: classes/common.php:138
+msgid "You can customize the preview image on style tab > Additional Style"
+msgstr "Vous pouvez personnaliser l’image d’aperçu sous l’onglet style > style supplémentaire"
+
+#: classes/common.php:146
+msgid "Country Code"
+msgstr "Code de pays"
+
+#: classes/common.php:236
+msgid "Edit"
+msgstr "Modifier"
+
+#: classes/common.php:299
+msgid "Additional Styles"
+msgstr "Styles supplémentaires"
+
+#: classes/common.php:329
+msgid "Width"
+msgstr "Largeur"
+
+#: classes/common.php:356
+msgid "Height"
+msgstr "Hauteur"
+
+#: classes/common.php:383
+msgid "Object Fit"
+msgstr "Ajustement de l’objet"
+
+#: classes/common.php:390
+msgid "Fill"
+msgstr "Remplir"
+
+#: classes/common.php:391
+msgid "Cover"
+msgstr "Couvrir"
+
+#: classes/common.php:392
+msgid "Contain"
+msgstr "Contiennent"
+
+#: classes/common.php:436
+#: classes/common.php:449
+msgid "Floating Label"
+msgstr "Étiquette flottante"
+
+#: classes/common.php:456
+msgid "You must set label for each form fields and remove placeholders. Works only on frontend."
+msgstr "Vous devez définir l’étiquette pour chaque champ de formulaire et supprimer les espaces réservés. Fonctionne uniquement sur frontend."
+
+#: classes/Custom_Templates.php:20
+msgid "Actions Pack Templates"
+msgstr "Modèles de pack d’actions"
+
+#: classes/Dynamic_Tags/Image_Meta.php:16
+msgid "Image Meta"
+msgstr "Image Meta"
+
+#: classes/Dynamic_Tags/Url_Meta.php:16
+msgid "URL Meta"
+msgstr "URL Meta"
+
+#: init.php:76
+msgid "Account"
+msgstr "Compte"
+
+#: init.php:77
+msgid "Support"
+msgstr "Soutien"
+
+#: init.php:79
+msgid "Upgrade"
+msgstr "Améliorer"
+
+#. translators: 1: Plugin name 2: Elementor  3: Elementor Pro
+#: plugin.php:106
+msgid "\"%1$s\" requires \"%2$s\" & \"%3$s\" to be installed and activated."
+msgstr "« %1$s » nécessite « %2$s » et « %3$s » pour être installé et activé."
+
+#: plugin.php:108
+#: plugin.php:124
+msgid "Elementor"
+msgstr "Elementor"
+
+#: plugin.php:109
+#: plugin.php:126
+msgid "Elementor Pro"
+msgstr "Elementor Pro"
+
+#. translators: 1: Plugin name 2: Elementor 3: Required Elementor version 4: Elementor Pro 5: Required Elementor Pro version
+#: plugin.php:122
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater and \"%4$s\" version %5$s or greater."
+msgstr "« %1$s » nécessite « %2$s » version %3$s ou plus et « %4$s » version %5$s ou plus."
+
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: plugin.php:140
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "« 1 $s » nécessite la version « %2 $s » %3 $ ou plus."
+
+#: plugin.php:142
+msgid "PHP"
+msgstr "PHP"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Actions Pack">
+  <domain name="actions-pack">
+    <project name="Actions Pack" slug="actions-pack">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/actions-pack.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

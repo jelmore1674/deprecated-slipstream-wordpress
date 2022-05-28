@@ -1,0 +1,3 @@
+* Fixed: [Content AI](https://rankmath.com/kb/how-to-use-content-ai/#num-6-5-media-count) was not detecting the images present in the content area
+* Fixed: Content AI was crashing the editor on some setups when the site was not connected to Rank Math account
+* Fixed: Some sites were showing PHP warning after the last update

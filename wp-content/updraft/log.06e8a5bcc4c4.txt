@@ -1,0 +1,608 @@
+0000.008 (0) Opened log file at time: Sat, 28 May 2022 03:07:01 +0000 on https://www.slipstreamracing.net
+0000.018 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.12 WP: 6.0 PHP: 7.4.15 (fpm-fcgi, Linux slipstreamwp-vm-1 4.19.0-14-cloud-amd64 #1 SMP Debian 4.19.171-2 (2021-01-30) x86_64) MySQL: 8.0.23 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 14.7M | 16M) multisite: N openssl: OpenSSL 1.1.1j  16 Feb 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.025 (0) Free space on disk containing Updraft's temporary directory: 20856.6 MB
+0000.039 (0) Tasks: Backup files: 1 (schedule: every2hours) Backup DB:  (schedule: every2hours)
+0000.046 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.079 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1653700992, seconds_ago=6229)
+0000.100 (0) Set semaphore last lock (fd) time to 2022-05-28 03:07:01
+0000.105 (0) Semaphore lock (fd) complete
+0000.130 (0) Backup run: resumption=0, nonce=06e8a5bcc4c4, file_nonce=06e8a5bcc4c4 begun at=1653707221 (0s ago), job type=backup
+0000.142 (0) Scheduling a resumption (1) after 300 seconds (1653707522) in case this run gets aborted
+0000.163 (0) Checking if we have a zip executable available
+0000.169 (0) Testing: /usr/bin/zip
+0000.190 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.195 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.200 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.204 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.209 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.224 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.230 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.248 (0) Working binary zip found: /usr/bin/zip
+0000.259 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.265 (0) Creation of backups of directories: beginning
+0000.286 (0) Beginning creation of dump of plugins (split every: 1024 MB)
+0001.239 (0) Total entities for the zip file: 2206 directories, 12548 files (0 skipped as non-modified), 180.2 MB
+0001.255 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.262 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.268 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.274 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.280 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.287 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.291 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.298 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.304 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.310 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.316 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.9 MB, 12548 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.999 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: size is now: 7.90 MB
+0003.012 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1100 files added (on-disk size: 8048.3 KB)
+0003.019 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1200 files added (on-disk size: 8048.3 KB)
+0003.027 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1300 files added (on-disk size: 8048.3 KB)
+0003.037 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1400 files added (on-disk size: 8048.3 KB)
+0003.046 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1500 files added (on-disk size: 8048.3 KB)
+0003.054 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1600 files added (on-disk size: 8048.3 KB)
+0003.063 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.5 MB, 12548 files batched, 682 (1683) added so far); re-opening (prior size: 8048.3 KB)
+0004.566 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: size is now: 14.00 MB
+0004.581 (0) A useful amount of data was added after this amount of zip processing: 2.4 s (normalised: 2.4 s, rate: 10705.1 KB/s)
+0004.590 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.4392828941345, normalised_time=2.3913903185105, max_time=4.5798618793488, data points known=1, old_max_bytes=26214400, new_max_bytes=65771948)
+0004.604 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1700 files added (on-disk size: 14361.2 KB)
+0004.614 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1800 files added (on-disk size: 14361.2 KB)
+0004.620 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 1900 files added (on-disk size: 14361.2 KB)
+0004.629 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2000 files added (on-disk size: 14361.2 KB)
+0004.644 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2100 files added (on-disk size: 14361.2 KB)
+0004.653 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2200 files added (on-disk size: 14361.2 KB)
+0004.662 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2300 files added (on-disk size: 14361.2 KB)
+0004.670 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2400 files added (on-disk size: 14361.2 KB)
+0004.679 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2500 files added (on-disk size: 14361.2 KB)
+0004.693 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2600 files added (on-disk size: 14361.2 KB)
+0004.702 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.4 MB, 12548 files batched, 1001 (2684) added so far); re-opening (prior size: 14361.2 KB)
+0005.725 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: size is now: 17.50 MB
+0005.740 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2700 files added (on-disk size: 17911 KB)
+0005.748 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2800 files added (on-disk size: 17911 KB)
+0005.755 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 2900 files added (on-disk size: 17911 KB)
+0005.762 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3000 files added (on-disk size: 17911 KB)
+0005.775 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3100 files added (on-disk size: 17911 KB)
+0005.788 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3200 files added (on-disk size: 17911 KB)
+0005.798 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3300 files added (on-disk size: 17911 KB)
+0005.809 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3400 files added (on-disk size: 17911 KB)
+0005.818 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3500 files added (on-disk size: 17911 KB)
+0005.827 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3600 files added (on-disk size: 17911 KB)
+0005.834 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.2 MB, 12548 files batched, 1001 (3685) added so far); re-opening (prior size: 17911 KB)
+0007.079 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: size is now: 21.30 MB
+0007.091 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3700 files added (on-disk size: 21814.3 KB)
+0007.098 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3800 files added (on-disk size: 21814.3 KB)
+0007.104 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 3900 files added (on-disk size: 21814.3 KB)
+0007.110 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4000 files added (on-disk size: 21814.3 KB)
+0007.119 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4100 files added (on-disk size: 21814.3 KB)
+0007.126 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4200 files added (on-disk size: 21814.3 KB)
+0007.132 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4300 files added (on-disk size: 21814.3 KB)
+0007.139 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4400 files added (on-disk size: 21814.3 KB)
+0007.147 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4500 files added (on-disk size: 21814.3 KB)
+0007.154 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4600 files added (on-disk size: 21814.3 KB)
+0007.161 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (5.3 MB, 12548 files batched, 1001 (4686) added so far); re-opening (prior size: 21814.3 KB)
+0008.303 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4700 files added (on-disk size: 23598.3 KB)
+0008.313 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4800 files added (on-disk size: 23598.3 KB)
+0008.320 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 4900 files added (on-disk size: 23598.3 KB)
+0008.328 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5000 files added (on-disk size: 23598.3 KB)
+0008.339 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5100 files added (on-disk size: 23598.3 KB)
+0008.348 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5200 files added (on-disk size: 23598.3 KB)
+0008.357 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5300 files added (on-disk size: 23598.3 KB)
+0008.363 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5400 files added (on-disk size: 23598.3 KB)
+0008.373 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5500 files added (on-disk size: 23598.3 KB)
+0008.385 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5600 files added (on-disk size: 23598.3 KB)
+0008.392 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20 MB, 12548 files batched, 1001 (5687) added so far); re-opening (prior size: 23598.3 KB)
+0009.966 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: size is now: 28.90 MB
+0009.981 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5700 files added (on-disk size: 29553.5 KB)
+0009.996 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5800 files added (on-disk size: 29553.5 KB)
+0010.013 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 5900 files added (on-disk size: 29553.5 KB)
+0010.024 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6000 files added (on-disk size: 29553.5 KB)
+0010.033 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6100 files added (on-disk size: 29553.5 KB)
+0010.042 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6200 files added (on-disk size: 29553.5 KB)
+0010.050 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6300 files added (on-disk size: 29553.5 KB)
+0010.059 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6400 files added (on-disk size: 29553.5 KB)
+0010.070 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6500 files added (on-disk size: 29553.5 KB)
+0010.088 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6600 files added (on-disk size: 29553.5 KB)
+0010.099 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.1 MB, 12548 files batched, 1001 (6688) added so far); re-opening (prior size: 29553.5 KB)
+0011.424 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: size is now: 35.70 MB
+0011.437 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6700 files added (on-disk size: 36607.6 KB)
+0011.453 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6800 files added (on-disk size: 36607.6 KB)
+0011.464 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 6900 files added (on-disk size: 36607.6 KB)
+0011.472 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7000 files added (on-disk size: 36607.6 KB)
+0011.482 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7100 files added (on-disk size: 36607.6 KB)
+0011.490 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7200 files added (on-disk size: 36607.6 KB)
+0011.496 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7300 files added (on-disk size: 36607.6 KB)
+0011.507 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7400 files added (on-disk size: 36607.6 KB)
+0011.516 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7500 files added (on-disk size: 36607.6 KB)
+0011.524 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7600 files added (on-disk size: 36607.6 KB)
+0011.530 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.7 MB, 12548 files batched, 1001 (7689) added so far); re-opening (prior size: 36607.6 KB)
+0013.285 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7700 files added (on-disk size: 40283.4 KB)
+0013.299 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7800 files added (on-disk size: 40283.4 KB)
+0013.310 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 7900 files added (on-disk size: 40283.4 KB)
+0013.318 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8000 files added (on-disk size: 40283.4 KB)
+0013.326 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8100 files added (on-disk size: 40283.4 KB)
+0013.333 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8200 files added (on-disk size: 40283.4 KB)
+0013.346 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8300 files added (on-disk size: 40283.4 KB)
+0013.358 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8400 files added (on-disk size: 40283.4 KB)
+0013.371 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8500 files added (on-disk size: 40283.4 KB)
+0013.389 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8600 files added (on-disk size: 40283.4 KB)
+0013.397 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.7 MB, 12548 files batched, 1001 (8690) added so far); re-opening (prior size: 40283.4 KB)
+0015.058 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8700 files added (on-disk size: 45677.9 KB)
+0015.066 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8800 files added (on-disk size: 45677.9 KB)
+0015.075 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 8900 files added (on-disk size: 45677.9 KB)
+0015.083 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9000 files added (on-disk size: 45677.9 KB)
+0015.091 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9100 files added (on-disk size: 45677.9 KB)
+0015.099 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9200 files added (on-disk size: 45677.9 KB)
+0015.109 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9300 files added (on-disk size: 45677.9 KB)
+0015.117 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9400 files added (on-disk size: 45677.9 KB)
+0015.127 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9500 files added (on-disk size: 45677.9 KB)
+0015.137 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9600 files added (on-disk size: 45677.9 KB)
+0015.146 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.1 MB, 12548 files batched, 1001 (9691) added so far); re-opening (prior size: 45677.9 KB)
+0016.919 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9700 files added (on-disk size: 49788 KB)
+0016.934 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9800 files added (on-disk size: 49788 KB)
+0016.940 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 9900 files added (on-disk size: 49788 KB)
+0016.947 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10000 files added (on-disk size: 49788 KB)
+0016.955 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10100 files added (on-disk size: 49788 KB)
+0016.966 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10200 files added (on-disk size: 49788 KB)
+0016.973 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10300 files added (on-disk size: 49788 KB)
+0016.978 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10400 files added (on-disk size: 49788 KB)
+0016.987 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10500 files added (on-disk size: 49788 KB)
+0016.993 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10600 files added (on-disk size: 49788 KB)
+0016.999 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.5 MB, 12548 files batched, 1001 (10692) added so far); re-opening (prior size: 49788 KB)
+0018.827 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10700 files added (on-disk size: 53287.2 KB)
+0018.839 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10800 files added (on-disk size: 53287.2 KB)
+0018.854 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 10900 files added (on-disk size: 53287.2 KB)
+0018.868 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11000 files added (on-disk size: 53287.2 KB)
+0018.881 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11100 files added (on-disk size: 53287.2 KB)
+0018.891 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11200 files added (on-disk size: 53287.2 KB)
+0018.898 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11300 files added (on-disk size: 53287.2 KB)
+0018.908 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11400 files added (on-disk size: 53287.2 KB)
+0018.916 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11500 files added (on-disk size: 53287.2 KB)
+0018.923 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11600 files added (on-disk size: 53287.2 KB)
+0018.929 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.5 MB, 12548 files batched, 1001 (11693) added so far); re-opening (prior size: 53287.2 KB)
+0022.107 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11700 files added (on-disk size: 58547.6 KB)
+0022.124 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11800 files added (on-disk size: 58547.6 KB)
+0022.143 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 11900 files added (on-disk size: 58547.6 KB)
+0022.152 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 12000 files added (on-disk size: 58547.6 KB)
+0022.164 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 12100 files added (on-disk size: 58547.6 KB)
+0022.175 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 12200 files added (on-disk size: 58547.6 KB)
+0022.187 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 12300 files added (on-disk size: 58547.6 KB)
+0022.202 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 12400 files added (on-disk size: 58547.6 KB)
+0022.218 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.tmp: 12500 files added (on-disk size: 58547.6 KB)
+0024.036 (0) Creating zip file manifest (backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.list-temp.tmp)
+0024.076 (0) Successfully created zip file manifest (size: 1131456)
+0024.835 (0) Created plugins zip (0) - 60240.6 KB in 24.5 s (2454.7 KB/s) (sha1: 293b0db2fd0213a2148896c3aa1a64dbcd5e6304, sha256: 3f73cef59fc2d1c6ff6c0a74bc00e10a0538aa561cc2d39450247bf4f3f8fb78)
+0024.860 (0) Beginning creation of dump of themes (split every: 1024 MB)
+0024.976 (0) Total entities for the zip file: 203 directories, 1064 files (0 skipped as non-modified), 24.3 MB
+0024.984 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.991 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.998 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0025.004 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0025.011 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0025.018 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0025.026 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0025.032 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0025.040 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0025.047 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0025.052 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.7 MB, 1064 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0026.486 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.tmp: size is now: 11.60 MB
+0026.842 (0) Creating zip file manifest (backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.list-temp.tmp)
+0026.853 (0) Successfully created zip file manifest (size: 70736)
+0027.025 (0) Created themes zip (0) - 12607.9 KB in 2.2 s (5850.2 KB/s) (sha1: f0ef8ee9cd367e639faa1dee3884edb42002d61f, sha256: bcf2ade422c483c800df3e4902cd543845a94209bff458900342f9de7f817ede)
+0027.038 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0027.048 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads
+0027.056 (0) finding files: elementor: adding to list (1)
+0027.061 (0) finding files: ac_assets: adding to list (2)
+0027.065 (0) finding files: rank-math: adding to list (3)
+0027.072 (0) finding files: astra-sites: adding to list (4)
+0027.078 (0) finding files: 2021: adding to list (5)
+0027.084 (0) finding files: 2022: adding to list (6)
+0027.090 (0) finding files: aioseo-logs: adding to list (7)
+0027.095 (0) Beginning creation of dump of uploads (split every: 1024 MB)
+0027.158 (0) Total entities for the zip file: 28 directories, 779 files (0 skipped as non-modified), 267.1 MB
+0027.166 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0027.172 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0027.178 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0027.184 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 62.7 MB added on this batch (89 MB, 779 files batched, 316 (316) added so far); re-opening (prior size: 0 KB)
+0029.015 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.tmp: size is now: 88.90 MB
+0029.033 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2 s, rate: 31503.4 KB/s)
+0029.043 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.8921399116516, normalised_time=2.038838643044, max_time=29.032621860504, data points known=1, old_max_bytes=65771948, new_max_bytes=209715200)
+0029.058 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.tmp: 400 files added (on-disk size: 91001.5 KB)
+0029.067 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.tmp: 500 files added (on-disk size: 91001.5 KB)
+0029.076 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.tmp: 600 files added (on-disk size: 91001.5 KB)
+0029.102 (0) Zip: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.tmp: 700 files added (on-disk size: 91001.5 KB)
+0035.468 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.tmp: size is now: 267.00 MB
+0035.491 (0) Creating zip file manifest (backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.list-temp.tmp)
+0035.501 (0) Successfully created zip file manifest (size: 44945)
+0039.678 (0) Created uploads zip (0) - 273456.9 KB in 12.6 s (21745.1 KB/s) (sha1: bc581fdc9656b7229c93ee3eecf3a0faa118711d, sha256: 8fefced2f937891c8044e08fd86f3ca67bb95bcabf268c09d9402c5599311d0a)
+0039.689 (0) Beginning backup of other directories found in the content directory (index: 0)
+0039.694 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0039.699 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content
+0039.705 (0) finding files: updraft: skipping: this is the updraft directory
+0039.710 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0039.715 (0) finding files: upgrade: skipping: excluded by options
+0039.720 (0) finding files: index.php-old: adding to list (1)
+0039.728 (0) finding files: themes: skipping: this is the themes directory
+0039.735 (0) finding files: plugins-old: adding to list (2)
+0039.741 (0) finding files: languages-old: adding to list (3)
+0039.745 (0) finding files: index.php: adding to list (4)
+0039.750 (0) finding files: languages: adding to list (5)
+0039.756 (0) finding files: uploads-old: adding to list (6)
+0039.762 (0) finding files: plugins: skipping: this is the plugins directory
+0039.766 (0) finding files: themes-old: adding to list (7)
+0039.771 (0) finding files: uploads: skipping: this is the uploads directory
+0039.787 (0) Total entities for the zip file: 9 directories, 2 files (0 skipped as non-modified), 0 MB
+0039.815 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-others.zip.tmp: size is now: 0.00 MB
+0039.826 (0) Creating zip file manifest (backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-others.zip.list-temp.tmp)
+0039.832 (0) Successfully created zip file manifest (size: 64)
+0039.848 (0) Created others zip (0) - 1.8 KB in 0.1 s (24.8 KB/s) (sha1: c813c1aa5a71b219ef3188f0cdab21e27d0d0619, sha256: fa6986e919ab37e3c8dbfbb3ae1c3ead6a147469187610b2cbe2505bb0293183)
+0039.872 (0) Saving backup status to database (elements: 8)
+0039.912 (0) Beginning creation of database dump (WordPress DB)
+0039.938 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0040.140 (0) Table wp_options: Total expected rows (via COUNT): 629
+0040.405 (0) Table wp_options: Rows added in this batch (next record: 309234): 625 (uncompressed bytes in this segment=3984128) in 0.37 seconds
+0040.433 (0) Table wp_options: finishing file(s) (2, 426.5 KB)
+0040.475 (0) Table wp_users: Total expected rows (via COUNT): 13
+0040.481 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.494 (0) Table wp_users: Rows added in this batch (next record: 123459): 13 (uncompressed bytes in this segment=3530) in 0.05 seconds
+0040.511 (0) Table wp_users: finishing file(s) (2, 1.5 KB)
+0040.558 (0) Table wp_usermeta: Total expected rows (via COUNT): 406
+0040.565 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.583 (0) Table wp_usermeta: Rows added in this batch (next record: 618): 406 (uncompressed bytes in this segment=33633) in 0.06 seconds
+0040.609 (0) Table wp_usermeta: finishing file(s) (2, 8.1 KB)
+0040.658 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 695
+0040.694 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 7360): 695 (uncompressed bytes in this segment=258232) in 0.07 seconds
+0040.717 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 18.9 KB)
+0040.736 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0040.742 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.01 seconds
+0040.758 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0040.793 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 6
+0040.799 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0040.811 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=832) in 0.04 seconds
+0040.829 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0040.849 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 2079
+0040.893 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 21554): 2077 (uncompressed bytes in this segment=184392) in 0.05 seconds
+0040.913 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 14.3 KB)
+0040.942 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0040.955 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.03 seconds
+0040.978 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0041.019 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0041.025 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0041.037 (0) Table wp_comments: Rows added in this batch (next record: 20): 1 (uncompressed bytes in this segment=2785) in 0.05 seconds
+0041.057 (0) Table wp_comments: finishing file(s) (2, 1 KB)
+0041.080 (0) Table wp_links: Total expected rows (via COUNT): 0
+0041.092 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.02 seconds
+0041.110 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0041.423 (0) Table wp_postmeta: Total expected rows (approximate): 11520
+0042.230 (0) Table wp_postmeta: Rows added in this batch (next record: 20945): 13186 (uncompressed bytes in this segment=18714485) in 1.11 seconds
+0042.257 (0) Table wp_postmeta: finishing file(s) (2, 1084.7 KB)
+0042.332 (0) Table wp_posts: Total expected rows (approximate): 1732
+0042.623 (0) Table wp_posts: Rows added in this batch (next record: 2496): 1866 (uncompressed bytes in this segment=6826054) in 0.35 seconds
+0042.645 (0) Table wp_posts: finishing file(s) (2, 337.1 KB)
+0042.661 (0) Table wp_term_relationships: Total expected rows (approximate): 148
+0042.675 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 148 (uncompressed bytes in this segment=2898) in 0.02 seconds
+0042.693 (0) Table wp_term_relationships: finishing file(s) (2, 0.8 KB)
+0042.736 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 35
+0042.742 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.755 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=2219) in 0.05 seconds
+0042.782 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0042.805 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0042.816 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.02 seconds
+0042.839 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0042.871 (0) Table wp_terms: Total expected rows (via COUNT): 35
+0042.878 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.888 (0) Table wp_terms: Rows added in this batch (next record: 35): 35 (uncompressed bytes in this segment=1936) in 0.04 seconds
+0042.904 (0) Table wp_terms: finishing file(s) (2, 0.8 KB)
+0042.909 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_actionscheduler_groups
+0042.914 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_addonlibrary_addons
+0042.919 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_addonlibrary_categories
+0042.923 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_aioseo_notifications
+0042.928 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_aioseo_posts
+0042.933 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_commentmeta
+0042.938 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_e_submissions
+0042.944 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_e_submissions_actions_log
+0042.949 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_e_submissions_values
+0042.954 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_lstat
+0042.961 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_options
+0042.967 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_postmeta
+0042.971 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_rank_math_analytics_gsc
+0042.979 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_rank_math_analytics_objects
+0042.982 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_rank_math_internal_links
+0042.988 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_rank_math_internal_meta
+0042.993 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_rank_math_redirections_cache
+0042.998 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_snippy_bits
+0043.004 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_snippy_shortcode_bits
+0043.009 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_snippy_shortcodes
+0043.014 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_term_relationships
+0043.020 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_term_taxonomy
+0043.026 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_termmeta
+0043.031 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_terms
+0043.037 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_usermeta
+0043.043 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_wpdatacharts
+0043.049 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_wpdatatables
+0043.054 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_wpdatatables_columns
+0043.059 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_wpdatatables_rows
+0043.065 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_wpmailsmtp_debug_events
+0043.071 (0) Skipping table (lacks our prefix (wp_)): backupdb_wp_wpmailsmtp_tasks_meta
+0043.108 (0) Table wp_addonlibrary_addons: Total expected rows (via COUNT): 1
+0043.113 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.130 (0) Table wp_addonlibrary_addons: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=78730) in 0.05 seconds
+0043.147 (0) Table wp_addonlibrary_addons: finishing file(s) (2, 5.5 KB)
+0043.165 (0) Table wp_addonlibrary_categories: Total expected rows (via COUNT): 0
+0043.176 (0) Table wp_addonlibrary_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.02 seconds
+0043.194 (0) Table wp_addonlibrary_categories: finishing file(s) (2, 0.4 KB)
+0043.245 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 1
+0043.250 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.265 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2344) in 0.06 seconds
+0043.288 (0) Table wp_aioseo_notifications: finishing file(s) (2, 0.8 KB)
+0043.348 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 60
+0043.353 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.369 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 62): 60 (uncompressed bytes in this segment=62420) in 0.07 seconds
+0043.394 (0) Table wp_aioseo_posts: finishing file(s) (2, 5.3 KB)
+0043.416 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0043.427 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.02 seconds
+0043.444 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0043.485 (0) Table wp_e_submissions: Total expected rows (via COUNT): 79
+0043.490 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.504 (0) Table wp_e_submissions: Rows added in this batch (next record: 79): 79 (uncompressed bytes in this segment=46083) in 0.05 seconds
+0043.519 (0) Table wp_e_submissions: finishing file(s) (2, 6.7 KB)
+0043.562 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 152
+0043.569 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.588 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: 152): 152 (uncompressed bytes in this segment=23927) in 0.06 seconds
+0043.624 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 3 KB)
+0043.706 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 978
+0043.728 (0) Table wp_e_submissions_values: Rows added in this batch (next record: 978): 978 (uncompressed bytes in this segment=39309) in 0.09 seconds
+0043.758 (0) Table wp_e_submissions_values: finishing file(s) (2, 9.5 KB)
+0043.787 (0) Table wp_fea_submissions: Total expected rows (via COUNT): 0
+0043.793 (0) Table wp_fea_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=754) in 0.02 seconds
+0043.814 (0) Table wp_fea_submissions: finishing file(s) (2, 0.4 KB)
+0043.849 (0) Table wp_rank_math_404_logs: Total expected rows (via COUNT): 71
+0043.855 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0043.866 (0) Table wp_rank_math_404_logs: Rows added in this batch (next record: 71): 71 (uncompressed bytes in this segment=6346) in 0.04 seconds
+0043.882 (0) Table wp_rank_math_404_logs: finishing file(s) (2, 1.8 KB)
+0043.905 (0) Table wp_rank_math_analytics_gsc: Total expected rows (via COUNT): 0
+0043.917 (0) Table wp_rank_math_analytics_gsc: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=971) in 0.02 seconds
+0043.931 (0) Table wp_rank_math_analytics_gsc: finishing file(s) (2, 0.5 KB)
+0043.965 (0) Table wp_rank_math_analytics_inspections: Total expected rows (via COUNT): 0
+0043.970 (0) Table wp_rank_math_analytics_inspections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2063) in 0.03 seconds
+0043.992 (0) Table wp_rank_math_analytics_inspections: finishing file(s) (2, 0.6 KB)
+0044.024 (0) Table wp_rank_math_analytics_objects: Total expected rows (via COUNT): 57
+0044.029 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.042 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 57): 57 (uncompressed bytes in this segment=11124) in 0.04 seconds
+0044.060 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 2.5 KB)
+0044.097 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 235
+0044.103 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.117 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 2241): 235 (uncompressed bytes in this segment=22516) in 0.04 seconds
+0044.134 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 3.2 KB)
+0044.172 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 65
+0044.178 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.189 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 2493): 65 (uncompressed bytes in this segment=1817) in 0.04 seconds
+0044.209 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.7 KB)
+0044.246 (0) Table wp_rank_math_redirections: Total expected rows (via COUNT): 7
+0044.252 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.267 (0) Table wp_rank_math_redirections: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=3107) in 0.04 seconds
+0044.283 (0) Table wp_rank_math_redirections: finishing file(s) (2, 0.9 KB)
+0044.318 (0) Table wp_rank_math_redirections_cache: Total expected rows (via COUNT): 13
+0044.324 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.330 (0) Table wp_rank_math_redirections_cache: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=1698) in 0.03 seconds
+0044.347 (0) Table wp_rank_math_redirections_cache: finishing file(s) (2, 0.7 KB)
+0044.378 (0) Table wp_snippy_bits: Total expected rows (via COUNT): 1
+0044.384 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.390 (0) Table wp_snippy_bits: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1055) in 0.03 seconds
+0044.407 (0) Table wp_snippy_bits: finishing file(s) (2, 0.6 KB)
+0044.440 (0) Table wp_snippy_shortcode_bits: Total expected rows (via COUNT): 1
+0044.445 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.450 (0) Table wp_snippy_shortcode_bits: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=561) in 0.03 seconds
+0044.469 (0) Table wp_snippy_shortcode_bits: finishing file(s) (2, 0.3 KB)
+0044.505 (0) Table wp_snippy_shortcodes: Total expected rows (via COUNT): 1
+0044.510 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.516 (0) Table wp_snippy_shortcodes: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=520) in 0.03 seconds
+0044.534 (0) Table wp_snippy_shortcodes: finishing file(s) (2, 0.3 KB)
+0044.568 (0) Table wp_wpdatacharts: Total expected rows (via COUNT): 0
+0044.585 (0) Table wp_wpdatacharts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=573) in 0.03 seconds
+0044.604 (0) Table wp_wpdatacharts: finishing file(s) (2, 0.4 KB)
+0044.644 (0) Table wp_wpdatatables: Total expected rows (via COUNT): 0
+0044.657 (0) Table wp_wpdatatables: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1729) in 0.03 seconds
+0044.688 (0) Table wp_wpdatatables: finishing file(s) (2, 0.6 KB)
+0044.753 (0) Table wp_wpdatatables_columns: Total expected rows (via COUNT): 0
+0044.766 (0) Table wp_wpdatatables_columns: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1891) in 0.05 seconds
+0044.791 (0) Table wp_wpdatatables_columns: finishing file(s) (2, 0.7 KB)
+0044.810 (0) Table wp_wpdatatables_rows: Total expected rows (via COUNT): 0
+0044.820 (0) Table wp_wpdatatables_rows: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=461) in 0.02 seconds
+0044.839 (0) Table wp_wpdatatables_rows: finishing file(s) (2, 0.3 KB)
+0044.877 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 1
+0044.883 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.894 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=992) in 0.04 seconds
+0044.913 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.6 KB)
+0044.957 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 37
+0044.962 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.975 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 37): 37 (uncompressed bytes in this segment=3710) in 0.05 seconds
+0044.999 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.9 KB)
+0045.010 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_options.table.tmpr309235.gz (1/73/fopen): adding to final database dump
+0045.021 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_options.table.gz (2/73/fopen): adding to final database dump
+0045.027 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_users.table.tmpr123460.gz (3/73/fopen): adding to final database dump
+0045.032 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_users.table.gz (4/73/fopen): adding to final database dump
+0045.037 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_usermeta.table.tmpr619.gz (5/73/fopen): adding to final database dump
+0045.042 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_usermeta.table.gz (6/73/fopen): adding to final database dump
+0045.047 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_actionscheduler_actions.table.tmpr7361.gz (7/73/fopen): adding to final database dump
+0045.052 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_actionscheduler_actions.table.gz (8/73/fopen): adding to final database dump
+0045.057 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/73/fopen): adding to final database dump
+0045.062 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_actionscheduler_claims.table.gz (10/73/fopen): adding to final database dump
+0045.067 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_actionscheduler_groups.table.tmpr7.gz (11/73/fopen): adding to final database dump
+0045.071 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_actionscheduler_groups.table.gz (12/73/fopen): adding to final database dump
+0045.077 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_actionscheduler_logs.table.tmpr21555.gz (13/73/fopen): adding to final database dump
+0045.083 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_actionscheduler_logs.table.gz (14/73/fopen): adding to final database dump
+0045.088 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_commentmeta.table.tmpr0.gz (15/73/fopen): adding to final database dump
+0045.093 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_commentmeta.table.gz (16/73/fopen): adding to final database dump
+0045.098 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_comments.table.tmpr21.gz (17/73/fopen): adding to final database dump
+0045.103 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_comments.table.gz (18/73/fopen): adding to final database dump
+0045.107 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_links.table.tmpr0.gz (19/73/fopen): adding to final database dump
+0045.112 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_links.table.gz (20/73/fopen): adding to final database dump
+0045.118 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_postmeta.table.tmpr20946.gz (21/73/fopen): adding to final database dump
+0045.140 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_postmeta.table.gz (22/73/fopen): adding to final database dump
+0045.146 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_posts.table.tmpr2497.gz (23/73/fopen): adding to final database dump
+0045.156 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_posts.table.gz (24/73/fopen): adding to final database dump
+0045.161 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_term_relationships.table.tmpr100001.gz (25/73/fopen): adding to final database dump
+0045.167 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_term_relationships.table.gz (26/73/fopen): adding to final database dump
+0045.172 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_term_taxonomy.table.tmpr36.gz (27/73/fopen): adding to final database dump
+0045.178 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_term_taxonomy.table.gz (28/73/fopen): adding to final database dump
+0045.182 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_termmeta.table.tmpr0.gz (29/73/fopen): adding to final database dump
+0045.187 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_termmeta.table.gz (30/73/fopen): adding to final database dump
+0045.192 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_terms.table.tmpr36.gz (31/73/fopen): adding to final database dump
+0045.197 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_terms.table.gz (32/73/fopen): adding to final database dump
+0045.202 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_addonlibrary_addons.table.tmpr2.gz (33/73/fopen): adding to final database dump
+0045.207 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_addonlibrary_addons.table.gz (34/73/fopen): adding to final database dump
+0045.212 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_addonlibrary_categories.table.tmpr0.gz (35/73/fopen): adding to final database dump
+0045.216 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_addonlibrary_categories.table.gz (36/73/fopen): adding to final database dump
+0045.221 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_aioseo_notifications.table.tmpr2.gz (37/73/fopen): adding to final database dump
+0045.226 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_aioseo_notifications.table.gz (38/73/fopen): adding to final database dump
+0045.230 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_aioseo_posts.table.tmpr63.gz (39/73/fopen): adding to final database dump
+0045.240 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_aioseo_posts.table.gz (40/73/fopen): adding to final database dump
+0045.245 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_e_events.table.tmpr0.gz (41/73/fopen): adding to final database dump
+0045.250 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_e_events.table.gz (42/73/fopen): adding to final database dump
+0045.255 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_e_submissions.table.tmpr80.gz (43/73/fopen): adding to final database dump
+0045.259 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_e_submissions.table.gz (44/73/fopen): adding to final database dump
+0045.264 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_e_submissions_actions_log.table.tmpr153.gz (45/73/fopen): adding to final database dump
+0045.269 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_e_submissions_actions_log.table.gz (46/73/fopen): adding to final database dump
+0045.273 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_e_submissions_values.table.tmpr979.gz (47/73/fopen): adding to final database dump
+0045.278 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_e_submissions_values.table.gz (48/73/fopen): adding to final database dump
+0045.282 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_fea_submissions.table.tmpr0.gz (49/73/fopen): adding to final database dump
+0045.287 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_fea_submissions.table.gz (50/73/fopen): adding to final database dump
+0045.292 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_404_logs.table.tmpr72.gz (51/73/fopen): adding to final database dump
+0045.297 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_404_logs.table.gz (52/73/fopen): adding to final database dump
+0045.302 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_analytics_gsc.table.tmpr0.gz (53/73/fopen): adding to final database dump
+0045.306 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_analytics_gsc.table.gz (54/73/fopen): adding to final database dump
+0045.311 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_analytics_inspections.table.tmpr0.gz (55/73/fopen): adding to final database dump
+0045.317 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_analytics_inspections.table.gz (56/73/fopen): adding to final database dump
+0045.321 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_analytics_objects.table.tmpr58.gz (57/73/fopen): adding to final database dump
+0045.326 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_analytics_objects.table.gz (58/73/fopen): adding to final database dump
+0045.330 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_internal_links.table.tmpr2242.gz (59/73/fopen): adding to final database dump
+0045.335 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_internal_links.table.gz (60/73/fopen): adding to final database dump
+0045.340 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_internal_meta.table.tmpr2494.gz (61/73/fopen): adding to final database dump
+0045.345 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_internal_meta.table.gz (62/73/fopen): adding to final database dump
+0045.350 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_redirections.table.tmpr8.gz (63/73/fopen): adding to final database dump
+0045.354 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_redirections.table.gz (64/73/fopen): adding to final database dump
+0045.359 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_redirections_cache.table.tmpr14.gz (65/73/fopen): adding to final database dump
+0045.362 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_rank_math_redirections_cache.table.gz (66/73/fopen): adding to final database dump
+0045.367 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_snippy_bits.table.tmpr2.gz (67/73/fopen): adding to final database dump
+0045.372 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_snippy_bits.table.gz (68/73/fopen): adding to final database dump
+0045.377 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_snippy_shortcode_bits.table.tmpr3.gz (69/73/fopen): adding to final database dump
+0045.381 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_snippy_shortcode_bits.table.gz (70/73/fopen): adding to final database dump
+0045.386 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_snippy_shortcodes.table.tmpr2.gz (71/73/fopen): adding to final database dump
+0045.391 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_snippy_shortcodes.table.gz (72/73/fopen): adding to final database dump
+0045.396 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpdatacharts.table.tmpr0.gz (73/73/fopen): adding to final database dump
+0045.401 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpdatacharts.table.gz (74/73/fopen): adding to final database dump
+0045.406 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpdatatables.table.tmpr0.gz (75/73/fopen): adding to final database dump
+0045.411 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpdatatables.table.gz (76/73/fopen): adding to final database dump
+0045.416 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpdatatables_columns.table.tmpr0.gz (77/73/fopen): adding to final database dump
+0045.421 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpdatatables_columns.table.gz (78/73/fopen): adding to final database dump
+0045.426 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpdatatables_rows.table.tmpr0.gz (79/73/fopen): adding to final database dump
+0045.431 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpdatatables_rows.table.gz (80/73/fopen): adding to final database dump
+0045.435 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpmailsmtp_debug_events.table.tmpr2.gz (81/73/fopen): adding to final database dump
+0045.440 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpmailsmtp_debug_events.table.gz (82/73/fopen): adding to final database dump
+0045.445 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr38.gz (83/73/fopen): adding to final database dump
+0045.450 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db-table-wp_wpmailsmtp_tasks_meta.table.gz (84/73/fopen): adding to final database dump
+0045.476 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db.gz: finished writing out complete database file (1943.9 KB)
+0045.526 (0) Total database tables backed up: 42 (backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db.gz, size: 1990645, sha1: 0a3027219138768c83a7351a079a1f04f95bbe2f, sha256: 70a1b25e37086c5c9bd7e76e2c1eaed1f3d151e15493ee48d0c22bbaba917e4f)
+0045.564 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0045.570 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0045.577 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0045.584 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0045.590 (0) backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0045.598 (0) Saving backup history. Total backup size: 340.1 MB
+0045.610 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0045.641 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0045.649 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-4e877978a21c568e77572429f5f4c1fe)
+0047.652 (0) Google Drive: quota usage: used=4958.7 MB, total=15360 MB, available=10401.3 MB
+0047.657 (0) Google Drive: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip: Attempting to upload to Google Drive (into folder id: 1_ozwKntwvsMBfSilv7syCjshtcPpNg7k)
+0047.999 (0) Googledrive chunked upload: 1.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 15.5 / 58)
+0048.123 (0) Googledrive chunked upload: 5.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 15.5 / 58)
+0048.316 (0) Googledrive chunked upload: 11.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 15.5 / 58)
+0048.578 (0) Googledrive chunked upload: 25.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 15.5 / 58)
+0049.081 (0) Googledrive chunked upload: 52.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 15.5 / 58)
+0050.708 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0050.725 (0) Google Drive: OK: Archive backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip uploaded in 3.06 seconds
+0050.731 (0) Recording as successfully uploaded: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip
+0050.747 (0) Deleting local file: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip: OK
+0050.753 (0) Deleting zip manifest (backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-plugins.zip.list.tmp)
+0050.928 (0) Google Drive: quota usage: used=4958.7 MB, total=15360 MB, available=10401.3 MB
+0050.934 (0) Google Drive: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip: Attempting to upload to Google Drive (into folder id: 1_ozwKntwvsMBfSilv7syCjshtcPpNg7k)
+0051.248 (0) Googledrive chunked upload: 8.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 15.5 / 58)
+0051.370 (0) Googledrive chunked upload: 24.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 15.5 / 58)
+0051.538 (0) Googledrive chunked upload: 56.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 15.5 / 58)
+0052.451 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0052.469 (0) Google Drive: OK: Archive backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip uploaded in 1.53 seconds
+0052.474 (0) Recording as successfully uploaded: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip
+0052.487 (0) Deleting local file: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip: OK
+0052.493 (0) Deleting zip manifest (backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-themes.zip.list.tmp)
+0052.650 (0) Google Drive: quota usage: used=5029.9 MB, total=15360 MB, available=10330.1 MB
+0052.655 (0) Google Drive: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip: Attempting to upload to Google Drive (into folder id: 1_ozwKntwvsMBfSilv7syCjshtcPpNg7k)
+0052.931 (0) Googledrive chunked upload: 0.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 15.5 / 58)
+0053.073 (0) Googledrive chunked upload: 1.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 15.5 / 58)
+0053.233 (0) Googledrive chunked upload: 2.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 15.5 / 58)
+0053.500 (0) Googledrive chunked upload: 5.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 15.5 / 58)
+0053.948 (0) Googledrive chunked upload: 11.6 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 15.5 / 58)
+0054.659 (0) Googledrive chunked upload: 23.6 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 15.5 / 58)
+0056.867 (0) Googledrive chunked upload: 47.6 % uploaded (133169152)
+0058.303 (0) Googledrive chunked upload: 71.5 % uploaded (200278016)
+0059.482 (0) Googledrive chunked upload: 95.5 % uploaded (267386880)
+0060.439 (0) Googledrive chunked upload: 100 % uploaded (267386880)
+0060.459 (0) Google Drive: OK: Archive backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip uploaded in 7.8 seconds
+0060.466 (0) Recording as successfully uploaded: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip
+0060.485 (0) Deleting local file: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip: OK
+0060.492 (0) Deleting zip manifest (backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-uploads.zip.list.tmp)
+0060.743 (0) Google Drive: quota usage: used=5029.9 MB, total=15360 MB, available=10330.1 MB
+0060.750 (0) Google Drive: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-others.zip: Attempting to upload to Google Drive (into folder id: 1_ozwKntwvsMBfSilv7syCjshtcPpNg7k)
+0061.710 (0) Googledrive chunked upload: 100 % uploaded
+0061.728 (0) Google Drive: OK: Archive backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-others.zip uploaded in 0.97 seconds
+0061.733 (0) Recording as successfully uploaded: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-others.zip
+0061.745 (0) Deleting local file: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-others.zip: OK
+0061.751 (0) Deleting zip manifest (backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-others.zip.list.tmp)
+0061.916 (0) Google Drive: quota usage: used=5296.9 MB, total=15360 MB, available=10063.1 MB
+0061.923 (0) Google Drive: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db.gz: Attempting to upload to Google Drive (into folder id: 1_ozwKntwvsMBfSilv7syCjshtcPpNg7k)
+0062.236 (0) Googledrive chunked upload: 52.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 15.5 / 58)
+0063.440 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0063.458 (0) Google Drive: OK: Archive backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db.gz uploaded in 1.53 seconds
+0063.462 (0) Recording as successfully uploaded: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db.gz
+0063.475 (0) Deleting local file: backup_2022-05-27-2207_Slipstream_Racing_06e8a5bcc4c4-db.gz: OK
+0063.495 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0063.530 (0) Number of backup sets in history: 3; groups (db): 1
+0063.539 (0) Examining (for databases) backup set with group_id=0, nonce=06e8a5bcc4c4, datestamp=1653707221 (May 28 2022 03:07:01)
+0063.546 (0) This backup set is the backup set just made, so will not be deleted.
+0063.546 (0) Examining (for databases) backup set with group_id=0, nonce=6f38f003197d, datestamp=1653700992 (May 28 2022 01:23:12)
+0063.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0063.554 (0) Examining (for databases) backup set with group_id=0, nonce=37e3604e7a81, datestamp=1653692816 (May 27 2022 23:06:56)
+0063.554 (0) 1653692816: db: this set includes a database (backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-db.gz); db count is now 2
+0063.554 (0) 1653692816: db: over retain limit (2); will delete this database
+0063.554 (0) Delete file: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-db.gz, service=googledrive
+0064.724 (0) Google Drive: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-db.gz: Deletion successful
+0064.737 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0064.742 (0) Number of backup sets in history: 3; groups (files): 1
+0064.748 (0) Examining (for files) backup set with nonce=06e8a5bcc4c4, datestamp=1653707221 (May 28 2022 03:07:01)
+0064.748 (0) This backup set is the backup set just made, so will not be deleted.
+0064.753 (0) This backup set is the backup set just made, so will not be deleted.
+0064.753 (0) This backup set is the backup set just made, so will not be deleted.
+0064.753 (0) This backup set is the backup set just made, so will not be deleted.
+0064.754 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0064.760 (0) Examining (for files) backup set with nonce=6f38f003197d, datestamp=1653700992 (May 28 2022 01:23:12)
+0064.760 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0064.760 (0) Examining (for files) backup set with nonce=37e3604e7a81, datestamp=1653692816 (May 27 2022 23:06:56)
+0064.760 (0) plugins: over retain limit (2); will delete this file entity
+0064.760 (0) themes: over retain limit (2); will delete this file entity
+0064.760 (0) uploads: over retain limit (2); will delete this file entity
+0064.760 (0) others: over retain limit (2); will delete this file entity
+0064.761 (0) Delete file: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-plugins.zip, service=googledrive
+0064.766 (0) Delete file: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-themes.zip, service=googledrive
+0064.770 (0) Delete file: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-uploads.zip, service=googledrive
+0064.776 (0) Delete file: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-others.zip, service=googledrive
+0065.367 (0) Google Drive: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-others.zip: Deletion successful
+0065.864 (0) Google Drive: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-uploads.zip: Deletion successful
+0066.314 (0) Google Drive: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-themes.zip: Deletion successful
+0066.665 (0) Google Drive: backup_2022-05-27-1806_Slipstream_Racing_37e3604e7a81-plugins.zip: Deletion successful
+0066.677 (0) This backup set is now empty; will remove from history
+0066.683 (0) Deleting log file (log.37e3604e7a81.txt)
+0066.690 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0066.710 (0) Resume backup (06e8a5bcc4c4, 0): finish run
+0066.739 (0) Decremented the semaphore (fd) by 1
+0066.753 (0) Semaphore (fd) unlocked
+0066.759 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0066.780 (0) No email will/can be sent - the user has not configured an email address.
+0066.785 (0) The backup apparently succeeded and is now complete
