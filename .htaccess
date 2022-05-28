@@ -18,5 +18,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule wp-content/uploads/(.*) \
     https://slipstreamracing.net/wp-content/uploads/$1 [NC,L]
 </IfModule>
-
 # END WordPress

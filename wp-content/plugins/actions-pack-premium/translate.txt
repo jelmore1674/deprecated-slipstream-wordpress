@@ -1,9 +1,0 @@
-Step-1
-wp i18n make-pot ./ ./languages/actions-pack.pot
-
-Step-2
-Generate .po files using Loco Translate Plugin
-
-Step-3
-# Generate Translation Files for Javascript
-wp i18n make-json ./languages
