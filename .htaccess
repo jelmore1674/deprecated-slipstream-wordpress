@@ -11,6 +11,12 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
+# Attempt to load files from production if
+# they're not in our local version
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule wp-content/uploads/(.*) \
+    https://slipstreamracing.net/wp-content/uploads/$1 [NC,L]
 </IfModule>
 
 # END WordPress
