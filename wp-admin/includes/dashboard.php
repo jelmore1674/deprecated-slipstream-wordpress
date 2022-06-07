@@ -17,6 +17,8 @@
  * @global array $wp_registered_widget_controls
  * @global callable[] $wp_dashboard_control_callbacks
  */
+
+
 function wp_dashboard_setup() {
 	global $wp_registered_widgets, $wp_registered_widget_controls, $wp_dashboard_control_callbacks;
 
