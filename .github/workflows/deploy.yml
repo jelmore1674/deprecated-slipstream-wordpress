@@ -17,7 +17,7 @@ jobs:
               uses: appleboy/ssh-action@master
               with:
                   host: ${{ secrets.SSH_HOST }}
-                  username: root
+                  username: jelmore1674
                   key: ${{ secrets.SSH_KEY }}
                   script: |
                       cd ~/apps/wordpress_copy/htdocs
