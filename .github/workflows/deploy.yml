@@ -20,7 +20,7 @@ jobs:
                   username: jelmore1674
                   key: ${{ secrets.SSH_KEY }}
                   script: |
-                      cd ~/apps/wordpress_copy/htdocs
+                      cd ~/apps/wordpress/htdocs
                       git pull origin HEAD
         env:
             CI: true
